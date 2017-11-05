@@ -9,18 +9,29 @@ set -x
 
 mkdir -p ./dati
 
-## Palermo
+## affluenze
 
-Affluenza12="palermoAffluenza12"
-curl -sL "http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R1.xml" > ./dati/"$Affluenza12".xml
+for i in {1..3}; do
+    echo $i;
+    if [ "$i" -eq 1 ]; then
+        ora="12"
+    elif [ "$i" -eq 2 ]; then
+        ora="19"
+    else
+        ora="22"    
+    fi
+    nome="palermoAffluenza$ora"
 
-xmlstarlet sel --net -t -m "//CONS/SV" -v "@NUMERO" -o "|" -v "@TOTVOT" -o "|" -v "@UBICAZIONE" -o "|" -v "@ELETTORI" -n \
-http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R1.xml > ./dati/"$Affluenza12"_tmp.csv
+    curl -sL "http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R$i.xml" > ./dati/"$nome".xml
 
-sed -i '1s/^/sezione|votanti|ubicazione|numeroElettori\n/' ./dati/"$Affluenza12"_tmp.csv
+    xmlstarlet sel --net -t -m "//CONS/SV" -v "@NUMERO" -o "|" -v "@TOTVOT" -o "|" -v "@UBICAZIONE" -o "|" -v "@ELETTORI" -n \
+    http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R"$i".xml > ./dati/"$nome"_tmp.csv
 
-csvsql -d "|" --query 'select *, (CAST(votanti AS FLOAT)*100/numeroElettori) AS affluenzaPercentuale from '"$Affluenza12"'_tmp where numeroElettori > 20 order by affluenzaPercentuale DESC' ./dati/"$Affluenza12"_tmp.csv > ./dati/"$Affluenza12".csv
+    sed -i '1s/^/sezione|votanti|ubicazione|numeroElettori\n/' ./dati/"$nome"_tmp.csv
 
-csvsql --query 'select "Palermo" as comune,"12:00" as ora, AVG("affluenzaPercentuale") as mediaAffluenza from '"$Affluenza12"'' ./dati/"$Affluenza12".csv > ./dati/"$Affluenza12"_complessivo.csv
+    csvsql -d "|" --query 'select *, (CAST(votanti AS FLOAT)*100/numeroElettori) AS affluenzaPercentuale from '"$nome"'_tmp where numeroElettori > 20 order by affluenzaPercentuale DESC' ./dati/"$nome"_tmp.csv > ./dati/"$nome".csv
 
-rm ./dati/"$Affluenza12"_tmp.csv
+    csvsql --query 'select "Palermo" as comune,"12:00" as ora, AVG("affluenzaPercentuale") as mediaAffluenza from '"$nome"'' ./dati/"$nome".csv > ./dati/"$nome"_complessivo.csv
+done
+
+rm ./dati/*_tmp.csv
