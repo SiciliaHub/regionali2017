@@ -1,83 +1,83 @@
 comune,elettori,votanti,percentuale
-Alia,4200,False,False
-Alimena,2614,False,False
-Aliminusa,1117,False,False
-Altavilla Milicia,7710,False,False
-Altofonte,8492,False,False
-Bagheria,49036,False,False
-Balestrate,8005,False,False
-Baucina,2060,False,False
-Belmonte Mezzagno,9127,False,False
-Bisacquino,5585,False,False
-Blufi,1157,False,False
-Bolognetta,3653,False,False
-Bompietro,1565,False,False
-Borgetto,7602,False,False
-Caccamo,7485,False,False
-Caltavuturo,3542,False,False
-Campofelice di Fitalia,531,False,False
-Campofelice di Roccella,6813,False,False
-Campofiorito,1593,False,False
-Camporeale,3083,False,False
-Capaci,10448,False,False
-Carini,34756,False,False
-Castelbuono,8180,False,False
-Casteldaccia,9965,False,False
-Castellana Sicula,3413,False,False
-Castronovo di Sicilia,2930,False,False
-Cefalà Diana,978,False,False
-Cefalù,13829,False,False
-Cerda,4356,False,False
-Chiusa Sclafani,3072,False,False
-Ciminna,5167,False,False
-Cinisi,11742,False,False
-Collesano,4024,False,False
-Contessa Entellina,2083,False,False
-Corleone,10798,False,False
-Ficarazzi,10638,False,False
-Gangi,8447,False,False
-Geraci Siculo,1656,False,False
-Giardinello,2059,False,False
-Giuliana,1882,False,False
-Godrano,1078,False,False
-Gratteri,917,False,False
-Isnello,1579,False,False
-Isola delle Femmine,6119,False,False
-Lascari,3300,False,False
-Lercara Friddi,12102,False,False
-Marineo,5961,False,False
-Mezzojuso,2737,False,False
-Misilmeri,23963,False,False
-Monreale,32678,False,False
-Montelepre,5880,False,False
-Montemaggiore Belsito,3109,False,False
-Palazzo Adriano,2068,False,False
-Palermo,556900,False,False
-Partinico,28566,False,False
-Petralia Soprana,3019,False,False
-Petralia Sottana,2917,False,False
-Piana degli Albanesi,5738,False,False
-Polizzi Generosa,3459,False,False
-Pollina,3686,False,False
-Prizzi,4497,False,False
-Roccamena,1815,False,False
-Roccapalumba,3337,False,False
-San Cipirello,4983,False,False
-San Giuseppe Jato,8387,False,False
-San Mauro Castelverde,1975,False,False
-Santa Cristina Gela,1073,False,False
-Santa Flavia,10167,False,False
-Sciara,2705,False,False
-Scillato,622,False,False
-Sclafani Bagni,393,False,False
-Termini Imerese,23322,False,False
-Terrasini,11627,False,False
-Torretta,4467,False,False
-Trabia,9150,False,False
-Trappeto,3755,False,False
-Ustica,1218,False,False
-Valledolmo,3617,False,False
-Ventimiglia di Sicilia,2242,False,False
-Vicari,2786,False,False
-Villabate,16077,False,False
-Villafrati,2936,False,False
+Alia,4200,967,23.02
+Alimena,2614,768,29.38
+Aliminusa,1117,335,29.99
+Altavilla Milicia,7710,2802,36.34
+Altofonte,8492,3093,36.42
+Bagheria,49036,18424,37.57
+Balestrate,8005,2167,27.07
+Baucina,2060,741,35.97
+Belmonte Mezzagno,9127,2989,32.75
+Bisacquino,5585,1630,29.19
+Blufi,1157,384,33.19
+Bolognetta,3653,1300,35.59
+Bompietro,1565,536,34.25
+Borgetto,7602,2323,30.56
+Caccamo,7485,2915,38.94
+Caltavuturo,3542,1418,40.03
+Campofelice di Fitalia,531,174,32.77
+Campofelice di Roccella,6813,2724,39.98
+Campofiorito,1593,531,33.33
+Camporeale,3083,1084,35.16
+Capaci,10448,3720,35.6
+Carini,34756,10260,29.52
+Castelbuono,8180,2432,29.73
+Casteldaccia,9965,4499,45.15
+Castellana Sicula,3413,1065,31.2
+Castronovo di Sicilia,2930,966,32.97
+Cefalà Diana,978,475,48.57
+Cefalù,13829,5020,36.3
+Cerda,4356,1894,43.48
+Chiusa Sclafani,3072,893,29.07
+Ciminna,5167,1416,27.4
+Cinisi,11742,4362,37.15
+Collesano,4024,1398,34.74
+Contessa Entellina,2083,583,27.99
+Corleone,10798,3421,31.68
+Ficarazzi,10638,3775,35.49
+Gangi,8447,3119,36.92
+Geraci Siculo,1656,649,39.19
+Giardinello,2059,677,32.88
+Giuliana,1882,590,31.35
+Godrano,1078,556,51.58
+Gratteri,917,338,36.86
+Isnello,1579,633,40.09
+Isola delle Femmine,6119,2487,40.64
+Lascari,3300,1358,41.15
+Lercara Friddi,12102,1987,16.42
+Marineo,5961,2607,43.73
+Mezzojuso,2737,1144,41.8
+Misilmeri,23963,9459,39.47
+Monreale,32678,13183,40.34
+Montelepre,5880,1992,33.88
+Montemaggiore Belsito,3109,986,31.71
+Palazzo Adriano,2068,725,35.06
+Palermo,556900,210494,37.8
+Partinico,28566,9501,33.26
+Petralia Soprana,3019,1265,41.9
+Petralia Sottana,2917,1102,37.78
+Piana degli Albanesi,5738,1582,27.57
+Polizzi Generosa,3459,932,26.94
+Pollina,3686,1444,39.18
+Prizzi,4497,1514,33.67
+Roccamena,1815,651,35.87
+Roccapalumba,3337,654,19.6
+San Cipirello,4983,1782,35.76
+San Giuseppe Jato,8387,2415,28.79
+San Mauro Castelverde,1975,514,26.03
+Santa Cristina Gela,1073,402,37.47
+Santa Flavia,10167,3821,37.58
+Sciara,2705,1011,37.38
+Scillato,622,283,45.5
+Sclafani Bagni,393,172,43.77
+Termini Imerese,23322,8963,38.43
+Terrasini,11627,3867,33.26
+Torretta,4467,1256,28.12
+Trabia,9150,3728,40.74
+Trappeto,3755,1131,30.12
+Ustica,1218,519,42.61
+Valledolmo,3617,1023,28.28
+Ventimiglia di Sicilia,2242,832,37.11
+Vicari,2786,866,31.08
+Villabate,16077,5463,33.98
+Villafrati,2936,1109,37.77

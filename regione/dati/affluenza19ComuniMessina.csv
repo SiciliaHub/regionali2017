@@ -1,109 +1,109 @@
 comune,elettori,votanti,percentuale
-Acquedolci,4980,False,False
-Alcara Li Fusi,2443,False,False
-Alì,948,False,False
-Alì Terme,2286,False,False
-Antillo,904,False,False
-Barcellona Pozzo di Gotto,36824,False,False
-Basicò,1349,False,False
-Brolo,5077,False,False
-Capizzi,3542,False,False
-Capo d'Orlando,12957,False,False
-Caprileone,4233,False,False
-Caronia,3225,False,False
-Casalvecchio Siculo,950,False,False
-Castel Di Lucio,1953,False,False
-Castell'Umberto,2993,False,False
-Castelmola,1012,False,False
-Castroreale,2420,False,False
-Cesarò,2604,False,False
-Condrò,524,False,False
-Falcone,3298,False,False
-Ficarra,1487,False,False
-Fiumedinisi,1450,False,False
-Floresta,426,False,False
-Fondachelli Fantina,1011,False,False
-Forza d'Agrò,1004,False,False
-Francavilla Di Sicilia,4320,False,False
-Frazzanò,866,False,False
-Furci Siculo,3114,False,False
-Furnari,4241,False,False
-Gaggi,3008,False,False
-Galati Mamertino,2645,False,False
-Gallodoro,418,False,False
-Giardini Naxos,9053,False,False
-Gioiosa Marea,6741,False,False
-Graniti,1633,False,False
-Gualtieri Sicaminò,1816,False,False
-Itala,1455,False,False
-Leni,759,False,False
-Letojanni,2442,False,False
-Librizzi,1952,False,False
-Limina,1658,False,False
-Lipari,12296,False,False
-Longi,1434,False,False
-Malfa,999,False,False
-Malvagna,884,False,False
-Mandanici,722,False,False
-Mazzarrà Sant'Andrea,1507,False,False
-Merì,2058,False,False
-Messina,197470,False,False
-Milazzo,27782,False,False
-Militello Rosmarino,1197,False,False
-Mirto,1174,False,False
-Mistretta,4612,False,False
-Moio Alcantara,728,False,False
-Monforte San Giorgio,2976,False,False
-Mongiuffi Melia,573,False,False
-Montagnareale,1558,False,False
-Montalbano Elicona,2659,False,False
-Motta Camastra,1170,False,False
-Motta d'Affermo,806,False,False
-Naso,5024,False,False
-Nizza Di Sicilia,3530,False,False
-Novara Di Sicilia,1758,False,False
-Oliveri,2542,False,False
-Pace del Mela,5435,False,False
-Pagliara,1205,False,False
-Patti,11893,False,False
-Pettineo,2681,False,False
-Piraino,3775,False,False
-Raccuja,1056,False,False
-Reitano,811,False,False
-Roccafiorita,248,False,False
-Roccalumera,3786,False,False
-Roccavaldina,1198,False,False
-Roccella Valdemone,796,False,False
-Rodì Milici,2073,False,False
-Rometta,5918,False,False
-San Filippo del Mela,6307,False,False
-San Fratello,3676,False,False
-San Marco d'Alunzio,2113,False,False
-San Pier Niceto,3572,False,False
-San Piero Patti,3283,False,False
-San Salvatore di Fitalia,1583,False,False
-San Teodoro,1314,False,False
-Sant'Agata di Militello,11365,False,False
-Sant'Alessio Siculo,1419,False,False
-Sant'Angelo di Brolo,3405,False,False
-Santa Domenica Vittoria,883,False,False
-Santa Lucia del Mela,4467,False,False
-Santa Marina Salina,1044,False,False
-Santa Teresa di Riva,8453,False,False
-Santo Stefano di Camastra,4394,False,False
-Saponara,3652,False,False
-Savoca,1580,False,False
-Scaletta Zanclea,2129,False,False
-Sinagra,3025,False,False
-Spadafora,4826,False,False
-Taormina,9723,False,False
-Terme Vigliatore,6587,False,False
-Torregrotta,6735,False,False
-Torrenova,4104,False,False
-Tortorici,6018,False,False
-Tripi,1728,False,False
-Tusa,3159,False,False
-Ucria,1184,False,False
-Valdina,1175,False,False
-Venetico,3447,False,False
-Villafranca Tirrena,7641,False,False
+Acquedolci,4980,2043,41.02
+Alcara Li Fusi,2443,864,35.37
+Alì,948,314,33.12
+Alì Terme,2286,947,41.43
+Antillo,904,458,50.66
+Barcellona Pozzo di Gotto,36824,16425,44.6
+Basicò,1349,255,18.9
+Brolo,5077,2873,56.59
+Capizzi,3542,1313,37.07
+Capo d'Orlando,12957,4851,37.44
+Caprileone,4233,2062,48.71
+Caronia,3225,1202,37.27
+Casalvecchio Siculo,950,358,37.68
+Castel Di Lucio,1953,501,25.65
+Castell'Umberto,2993,1422,47.51
+Castelmola,1012,448,44.27
+Castroreale,2420,979,40.45
+Cesarò,2604,889,34.14
+Condrò,524,251,47.9
+Falcone,3298,1186,35.96
+Ficarra,1487,660,44.38
+Fiumedinisi,1450,441,30.41
+Floresta,426,206,48.36
+Fondachelli Fantina,1011,612,60.53
+Forza d'Agrò,1004,335,33.37
+Francavilla Di Sicilia,4320,1381,31.97
+Frazzanò,866,266,30.72
+Furci Siculo,3114,1592,51.12
+Furnari,4241,1425,33.6
+Gaggi,3008,1029,34.21
+Galati Mamertino,2645,1217,46.01
+Gallodoro,418,164,39.23
+Giardini Naxos,9053,3199,35.34
+Gioiosa Marea,6741,2846,42.22
+Graniti,1633,712,43.6
+Gualtieri Sicaminò,1816,916,50.44
+Itala,1455,666,45.77
+Leni,759,230,30.3
+Letojanni,2442,1051,43.04
+Librizzi,1952,693,35.5
+Limina,1658,380,22.92
+Lipari,12296,3668,29.83
+Longi,1434,615,42.89
+Malfa,999,276,27.63
+Malvagna,884,266,30.09
+Mandanici,722,287,39.75
+Mazzarrà Sant'Andrea,1507,831,55.14
+Merì,2058,876,42.57
+Messina,197470,80517,40.77
+Milazzo,27782,11532,41.51
+Militello Rosmarino,1197,535,44.7
+Mirto,1174,401,34.16
+Mistretta,4612,1832,39.72
+Moio Alcantara,728,266,36.54
+Monforte San Giorgio,2976,1080,36.29
+Mongiuffi Melia,573,319,55.67
+Montagnareale,1558,732,46.98
+Montalbano Elicona,2659,991,37.27
+Motta Camastra,1170,339,28.97
+Motta d'Affermo,806,311,38.59
+Naso,5024,1327,26.41
+Nizza Di Sicilia,3530,1483,42.01
+Novara Di Sicilia,1758,634,36.06
+Oliveri,2542,1021,40.17
+Pace del Mela,5435,2588,47.62
+Pagliara,1205,534,44.32
+Patti,11893,5224,43.92
+Pettineo,2681,531,19.81
+Piraino,3775,1619,42.89
+Raccuja,1056,477,45.17
+Reitano,811,279,34.4
+Roccafiorita,248,109,43.95
+Roccalumera,3786,1581,41.76
+Roccavaldina,1198,457,38.15
+Roccella Valdemone,796,217,27.26
+Rodì Milici,2073,805,38.83
+Rometta,5918,2733,46.18
+San Filippo del Mela,6307,2753,43.65
+San Fratello,3676,1290,35.09
+San Marco d'Alunzio,2113,783,37.06
+San Pier Niceto,3572,1254,35.11
+San Piero Patti,3283,1050,31.98
+San Salvatore di Fitalia,1583,514,32.47
+San Teodoro,1314,540,41.1
+Sant'Agata di Militello,11365,5024,44.21
+Sant'Alessio Siculo,1419,625,44.05
+Sant'Angelo di Brolo,3405,1384,40.65
+Santa Domenica Vittoria,883,382,43.26
+Santa Lucia del Mela,4467,1896,42.44
+Santa Marina Salina,1044,288,27.59
+Santa Teresa di Riva,8453,4099,48.49
+Santo Stefano di Camastra,4394,1400,31.86
+Saponara,3652,1499,41.05
+Savoca,1580,678,42.91
+Scaletta Zanclea,2129,914,42.93
+Sinagra,3025,1305,43.14
+Spadafora,4826,2205,45.69
+Taormina,9723,4061,41.77
+Terme Vigliatore,6587,2768,42.02
+Torregrotta,6735,2919,43.34
+Torrenova,4104,1847,45
+Tortorici,6018,2697,44.82
+Tripi,1728,365,21.12
+Tusa,3159,1003,31.75
+Ucria,1184,497,41.98
+Valdina,1175,524,44.6
+Venetico,3447,1523,44.18
+Villafranca Tirrena,7641,3623,47.42

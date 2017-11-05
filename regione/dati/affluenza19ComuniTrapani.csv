@@ -1,25 +1,25 @@
 comune,elettori,votanti,percentuale
-Alcamo,40100,False,False
-Buseto Palizzolo,2871,False,False
-Calatafimi Segesta,7112,False,False
-Campobello di Mazara,11793,False,False
-Castellammare del Golfo,14802,False,False
-Castelvetrano,28173,False,False
-Custonaci,4793,False,False
-Erice,24527,False,False
-Favignana,4383,False,False
-Gibellina,4029,False,False
-Marsala,70000,False,False
-Mazara del Vallo,43522,False,False
-Paceco,9975,False,False
-Pantelleria,6504,False,False
-Partanna,10131,False,False
-Petrosino,6585,False,False
-Poggioreale,1670,False,False
-Salaparuta,1835,False,False
-Salemi,10122,False,False
-San Vito Lo Capo,5212,False,False
-Santa Ninfa,4491,False,False
-Trapani,59878,False,False
-Valderice,10605,False,False
-Vita,2017,False,False
+Alcamo,40100,15805,39.41
+Buseto Palizzolo,2871,928,32.32
+Calatafimi Segesta,7112,1650,23.2
+Campobello di Mazara,11793,3815,32.35
+Castellammare del Golfo,14802,4547,30.72
+Castelvetrano,28173,9574,33.98
+Custonaci,4793,1611,33.61
+Erice,24527,9102,37.11
+Favignana,4383,1410,32.17
+Gibellina,4029,1484,36.83
+Marsala,70000,24732,35.33
+Mazara del Vallo,43522,18258,41.95
+Paceco,9975,3983,39.93
+Pantelleria,6504,1881,28.92
+Partanna,10131,3445,34
+Petrosino,6585,2655,40.32
+Poggioreale,1670,547,32.75
+Salaparuta,1835,599,32.64
+Salemi,10122,3670,36.26
+San Vito Lo Capo,5212,1430,27.44
+Santa Ninfa,4491,2000,44.53
+Trapani,59878,20094,33.56
+Valderice,10605,4274,40.3
+Vita,2017,636,31.53

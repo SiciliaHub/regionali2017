@@ -1,59 +1,59 @@
 comune,elettori,votanti,percentuale
-Aci Bonaccorsi,2915,False,False
-Aci Castello,16193,False,False
-Aci Catena,24140,False,False
-Aci Sant'Antonio,14956,False,False
-Acireale,45765,False,False
-Adrano,35534,False,False
-Belpasso,22848,False,False
-Biancavilla,21537,False,False
-Bronte,19007,False,False
-Calatabiano,5362,False,False
-Caltagirone,34842,False,False
-Camporotondo Etneo,3968,False,False
-Castel di Judica,4280,False,False
-Castiglione di Sicilia,4186,False,False
-Catania,264764,False,False
-Fiumefreddo di Sicilia,9054,False,False
-Giarre,24910,False,False
-Grammichele,14235,False,False
-Gravina di Catania,21784,False,False
-Licodia Eubea,3582,False,False
-Linguaglossa,5435,False,False
-Maletto,4702,False,False
-Maniace,2969,False,False
-Mascali,12613,False,False
-Mascalucia,26121,False,False
-Mazzarrone,2972,False,False
-Militello in Val di Catania,8196,False,False
-Milo,1032,False,False
-Mineo,7408,False,False
-Mirabella Imbaccari,9153,False,False
-Misterbianco,40255,False,False
-Motta Sant'Anastasia,9749,False,False
-Nicolosi,6361,False,False
-Palagonia,15586,False,False
-Paternò,41325,False,False
-Pedara,12103,False,False
-Piedimonte Etneo,4500,False,False
-Raddusa,3834,False,False
-Ragalna,3330,False,False
-Ramacca,10294,False,False
-Randazzo,11634,False,False
-Riposto,13699,False,False
-San Cono,3536,False,False
-San Giovanni La Punta,19290,False,False
-San Gregorio di Catania,9886,False,False
-San Michele di Ganzaria,4291,False,False
-San Pietro Clarenza,6260,False,False
-Sant'Agata Li Battiati,8228,False,False
-Sant'Alfio,1647,False,False
-Santa Maria di Licodia,6613,False,False
-Santa Venerina,7332,False,False
-Scordia,16033,False,False
-Trecastagni,9044,False,False
-Tremestieri Etneo,17106,False,False
-Valverde,6489,False,False
-Viagrande,7176,False,False
-Vizzini,7955,False,False
-Zafferana Etnea,8267,False,False
+Aci Bonaccorsi,2915,1515,51.97
+Aci Castello,16193,7793,48.13
+Aci Catena,24140,11053,45.79
+Aci Sant'Antonio,14956,7207,48.19
+Acireale,45765,22591,49.36
+Adrano,35534,11102,31.24
+Belpasso,22848,10255,44.88
+Biancavilla,21537,7677,35.65
+Bronte,19007,6417,33.76
+Calatabiano,5362,1778,33.16
+Caltagirone,34842,15457,44.36
+Camporotondo Etneo,3968,2120,53.43
+Castel di Judica,4280,1800,42.06
+Castiglione di Sicilia,4186,1077,25.73
+Catania,264764,97598,36.86
+Fiumefreddo di Sicilia,9054,2969,32.79
+Giarre,24910,8853,35.54
+Grammichele,14235,3501,24.59
+Gravina di Catania,21784,10155,46.62
+Licodia Eubea,3582,828,23.12
+Linguaglossa,5435,1872,34.44
+Maletto,4702,1341,28.52
+Maniace,2969,1253,42.2
+Mascali,12613,5303,42.04
+Mascalucia,26121,12442,47.63
+Mazzarrone,2972,915,30.79
+Militello in Val di Catania,8196,3058,37.31
+Milo,1032,442,42.83
+Mineo,7408,1555,20.99
+Mirabella Imbaccari,9153,1755,19.17
+Misterbianco,40255,16830,41.81
+Motta Sant'Anastasia,9749,4589,47.07
+Nicolosi,6361,3099,48.72
+Palagonia,15586,4646,29.81
+Paternò,41325,15756,38.13
+Pedara,12103,6221,51.4
+Piedimonte Etneo,4500,1577,35.04
+Raddusa,3834,1190,31.04
+Ragalna,3330,1732,52.01
+Ramacca,10294,3781,36.73
+Randazzo,11634,3655,31.42
+Riposto,13699,5376,39.24
+San Cono,3536,813,22.99
+San Giovanni La Punta,19290,9738,50.48
+San Gregorio di Catania,9886,5319,53.8
+San Michele di Ganzaria,4291,1018,23.72
+San Pietro Clarenza,6260,3018,48.21
+Sant'Agata Li Battiati,8228,4327,52.59
+Sant'Alfio,1647,576,34.97
+Santa Maria di Licodia,6613,2463,37.24
+Santa Venerina,7332,3473,47.37
+Scordia,16033,5274,32.89
+Trecastagni,9044,4671,51.65
+Tremestieri Etneo,17106,8608,50.32
+Valverde,6489,3190,49.16
+Viagrande,7176,3388,47.21
+Vizzini,7955,2246,28.23
+Zafferana Etnea,8267,3796,45.92
