@@ -1,0 +1,391 @@
+comune,Codice Comune formato alfanumerico
+Agrigento,084001
+Alessandria della Rocca,084002
+Aragona,084003
+Bivona,084004
+Burgio,084005
+Calamonaci,084006
+Caltabellotta,084007
+Camastra,084008
+Cammarata,084009
+Campobello di Licata,084010
+Canicattì,084011
+Casteltermini,084012
+Castrofilippo,084013
+Cattolica Eraclea,084014
+Cianciana,084015
+Comitini,084016
+Favara,084017
+Grotte,084018
+Joppolo Giancaxio,084019
+Lampedusa e Linosa,084020
+Licata,084021
+Lucca Sicula,084022
+Menfi,084023
+Montallegro,084024
+Montevago,084025
+Naro,084026
+Palma di Montechiaro,084027
+Porto Empedocle,084028
+Racalmuto,084029
+Raffadali,084030
+Ravanusa,084031
+Realmonte,084032
+Ribera,084033
+Sambuca di Sicilia,084034
+San Biagio Platani,084035
+San Giovanni Gemini,084036
+Sant'Angelo Muxaro,084039
+Santa Elisabetta,084037
+Santa Margherita di Belice,084038
+Santo Stefano Quisquina,084040
+Sciacca,084041
+Siculiana,084042
+Villafranca Sicula,084043
+Acquaviva Platani,085001
+Bompensiere,085002
+Butera,085003
+Caltanissetta,085004
+Campofranco,085005
+Delia,085006
+Gela,085007
+Marianopoli,085008
+Mazzarino,085009
+Milena,085010
+Montedoro,085011
+Mussomeli,085012
+Niscemi,085013
+Resuttano,085014
+Riesi,085015
+San Cataldo,085016
+Santa Caterina Villarmosa,085017
+Serradifalco,085018
+Sommatino,085019
+Sutera,085020
+Vallelunga Pratameno,085021
+Villalba,085022
+Aci Bonaccorsi,087001
+Aci Castello,087002
+Aci Catena,087003
+Aci Sant'Antonio,087005
+Acireale,087004
+Adrano,087006
+Belpasso,087007
+Biancavilla,087008
+Bronte,087009
+Calatabiano,087010
+Caltagirone,087011
+Camporotondo Etneo,087012
+Castel di Judica,087013
+Castiglione di Sicilia,087014
+Catania,087015
+Fiumefreddo di Sicilia,087016
+Giarre,087017
+Grammichele,087018
+Gravina di Catania,087019
+Licodia Eubea,087020
+Linguaglossa,087021
+Maletto,087022
+Maniace,087057
+Mascali,087023
+Mascalucia,087024
+Mazzarrone,087056
+Militello in Val di Catania,087025
+Milo,087026
+Mineo,087027
+Mirabella Imbaccari,087028
+Misterbianco,087029
+Motta Sant'Anastasia,087030
+Nicolosi,087031
+Palagonia,087032
+Paternò,087033
+Pedara,087034
+Piedimonte Etneo,087035
+Raddusa,087036
+Ragalna,087058
+Ramacca,087037
+Randazzo,087038
+Riposto,087039
+San Cono,087040
+San Giovanni La Punta,087041
+San Gregorio di Catania,087042
+San Michele di Ganzaria,087043
+San Pietro Clarenza,087044
+Sant'Agata Li Battiati,087045
+Sant'Alfio,087046
+Santa Maria di Licodia,087047
+Santa Venerina,087048
+Scordia,087049
+Trecastagni,087050
+Tremestieri Etneo,087051
+Valverde,087052
+Viagrande,087053
+Vizzini,087054
+Zafferana Etnea,087055
+Agira,086001
+Aidone,086002
+Assoro,086003
+Barrafranca,086004
+Calascibetta,086005
+Catenanuova,086006
+Centuripe,086007
+Cerami,086008
+Enna,086009
+Gagliano Castelferrato,086010
+Leonforte,086011
+Nicosia,086012
+Nissoria,086013
+Piazza Armerina,086014
+Pietraperzia,086015
+Regalbuto,086016
+Sperlinga,086017
+Troina,086018
+Valguarnera Caropepe,086019
+Villarosa,086020
+Acquedolci,083107
+Alcara Li Fusi,083001
+Alì,083002
+Alì Terme,083003
+Antillo,083004
+Barcellona Pozzo di Gotto,083005
+Basicò,083006
+Brolo,083007
+Capizzi,083008
+Capo d'Orlando,083009
+Caprileone,083010
+Caronia,083011
+Casalvecchio Siculo,083012
+Castel Di Lucio,083013
+Castell'Umberto,083014
+Castelmola,083015
+Castroreale,083016
+Cesarò,083017
+Condrò,083018
+Falcone,083019
+Ficarra,083020
+Fiumedinisi,083021
+Floresta,083022
+Fondachelli Fantina,083023
+Forza d'Agrò,083024
+Francavilla Di Sicilia,083025
+Frazzanò,083026
+Furci Siculo,083027
+Furnari,083028
+Gaggi,083029
+Galati Mamertino,083030
+Gallodoro,083031
+Giardini Naxos,083032
+Gioiosa Marea,083033
+Graniti,083034
+Gualtieri Sicaminò,083035
+Itala,083036
+Leni,083037
+Letojanni,083038
+Librizzi,083039
+Limina,083040
+Lipari,083041
+Longi,083042
+Malfa,083043
+Malvagna,083044
+Mandanici,083045
+Mazzarrà Sant'Andrea,083046
+Merì,083047
+Messina,083048
+Milazzo,083049
+Militello Rosmarino,083050
+Mirto,083051
+Mistretta,083052
+Moio Alcantara,083053
+Monforte San Giorgio,083054
+Mongiuffi Melia,083055
+Montagnareale,083056
+Montalbano Elicona,083057
+Motta Camastra,083058
+Motta d'Affermo,083059
+Naso,083060
+Nizza Di Sicilia,083061
+Novara Di Sicilia,083062
+Oliveri,083063
+Pace del Mela,083064
+Pagliara,083065
+Patti,083066
+Pettineo,083067
+Piraino,083068
+Raccuja,083069
+Reitano,083070
+Roccafiorita,083071
+Roccalumera,083072
+Roccavaldina,083073
+Roccella Valdemone,083074
+Rodì Milici,083075
+Rometta,083076
+San Filippo del Mela,083077
+San Fratello,083078
+San Marco d'Alunzio,083079
+San Pier Niceto,083080
+San Piero Patti,083081
+San Salvatore di Fitalia,083082
+San Teodoro,083090
+Sant'Agata di Militello,083084
+Sant'Alessio Siculo,083085
+Sant'Angelo di Brolo,083088
+Santa Domenica Vittoria,083083
+Santa Lucia del Mela,083086
+Santa Marina Salina,083087
+Santa Teresa di Riva,083089
+Santo Stefano di Camastra,083091
+Saponara,083092
+Savoca,083093
+Scaletta Zanclea,083094
+Sinagra,083095
+Spadafora,083096
+Taormina,083097
+Terme Vigliatore,083106
+Torregrotta,083098
+Torrenova,083108
+Tortorici,083099
+Tripi,083100
+Tusa,083101
+Ucria,083102
+Valdina,083103
+Venetico,083104
+Villafranca Tirrena,083105
+Alia,082001
+Alimena,082002
+Aliminusa,082003
+Altavilla Milicia,082004
+Altofonte,082005
+Bagheria,082006
+Balestrate,082007
+Baucina,082008
+Belmonte Mezzagno,082009
+Bisacquino,082010
+Blufi,082082
+Bolognetta,082011
+Bompietro,082012
+Borgetto,082013
+Caccamo,082014
+Caltavuturo,082015
+Campofelice di Fitalia,082016
+Campofelice di Roccella,082017
+Campofiorito,082018
+Camporeale,082019
+Capaci,082020
+Carini,082021
+Castelbuono,082022
+Casteldaccia,082023
+Castellana Sicula,082024
+Castronovo di Sicilia,082025
+Cefalà Diana,082026
+Cefalù,082027
+Cerda,082028
+Chiusa Sclafani,082029
+Ciminna,082030
+Cinisi,082031
+Collesano,082032
+Contessa Entellina,082033
+Corleone,082034
+Ficarazzi,082035
+Gangi,082036
+Geraci Siculo,082037
+Giardinello,082038
+Giuliana,082039
+Godrano,082040
+Gratteri,082041
+Isnello,082042
+Isola delle Femmine,082043
+Lascari,082044
+Lercara Friddi,082045
+Marineo,082046
+Mezzojuso,082047
+Misilmeri,082048
+Monreale,082049
+Montelepre,082050
+Montemaggiore Belsito,082051
+Palazzo Adriano,082052
+Palermo,082053
+Partinico,082054
+Petralia Soprana,082055
+Petralia Sottana,082056
+Piana degli Albanesi,082057
+Polizzi Generosa,082058
+Pollina,082059
+Prizzi,082060
+Roccamena,082061
+Roccapalumba,082062
+San Cipirello,082063
+San Giuseppe Jato,082064
+San Mauro Castelverde,082065
+Santa Cristina Gela,082066
+Santa Flavia,082067
+Sciara,082068
+Scillato,082081
+Sclafani Bagni,082069
+Termini Imerese,082070
+Terrasini,082071
+Torretta,082072
+Trabia,082073
+Trappeto,082074
+Ustica,082075
+Valledolmo,082076
+Ventimiglia di Sicilia,082077
+Vicari,082078
+Villabate,082079
+Villafrati,082080
+Acate,088001
+Chiaramonte Gulfi,088002
+Comiso,088003
+Giarratana,088004
+Ispica,088005
+Modica,088006
+Monterosso Almo,088007
+Pozzallo,088008
+Ragusa,088009
+Santa Croce Camerina,088010
+Scicli,088011
+Vittoria,088012
+Augusta,089001
+Avola,089002
+Buccheri,089003
+Buscemi,089004
+Canicattini Bagni,089005
+Carlentini,089006
+Cassaro,089007
+Ferla,089008
+Floridia,089009
+Francofonte,089010
+Lentini,089011
+Melilli,089012
+Noto,089013
+Pachino,089014
+Palazzolo Acreide,089015
+Portopalo di Capo Passero,089020
+Priolo Gargallo,089021
+Rosolini,089016
+Siracusa,089017
+Solarino,089018
+Sortino,089019
+Alcamo,081001
+Buseto Palizzolo,081002
+Calatafimi Segesta,081003
+Campobello di Mazara,081004
+Castellammare del Golfo,081005
+Castelvetrano,081006
+Custonaci,081007
+Erice,081008
+Favignana,081009
+Gibellina,081010
+Marsala,081011
+Mazara del Vallo,081012
+Paceco,081013
+Pantelleria,081014
+Partanna,081015
+Petrosino,081024
+Poggioreale,081016
+Salaparuta,081017
+Salemi,081018
+San Vito Lo Capo,081020
+Santa Ninfa,081019
+Trapani,081021
+Valderice,081022
+Vita,081023

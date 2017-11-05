@@ -10,6 +10,7 @@ set -x
 ### requisiti ###
 
 mkdir -p ./dati
+mkdir -p ./risorse
 
 curl "http://www.elezioni.regione.sicilia.it//rep_6/affluenzaRegionale1.html" | \
 scrape -be "//html/body/div//table/tr/td/table/tr/td//table/tr[position() > 1 and position() < 11]" | \
