@@ -24,10 +24,10 @@ for i in {1..3}; do
 
     curl -sL "http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R$i.xml" > ./dati/"$nome".xml
 
-    xmlstarlet sel --net -t -m "//CONS/SV" -v "@NUMERO" -o "|" -v "@TOTVOT" -o "|" -v "@UBICAZIONE" -o "|" -v "@ELETTORI" -n \
+    xmlstarlet sel --net -t -m "//CONS/SV" -v "@NUMERO" -o "|" -v "@TOTVOT" -o "|"  -v "@TOTVOTM" -o "|"  -v "@TOTVOTF" -o "|" -v "@UBICAZIONE" -o "|" -v "@ELETTORI" -n \
     http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R"$i".xml > ./dati/"$nome"_tmp.csv
 
-    sed -i '1s/^/sezione|votanti|ubicazione|numeroElettori\n/' ./dati/"$nome"_tmp.csv
+    sed -i '1s/^/sezione|votanti|votantiUomini|votantiDonne|ubicazione|numeroElettori\n/' ./dati/"$nome"_tmp.csv
 
     csvsql -d "|" --query 'select *, (CAST(votanti AS FLOAT)*100/numeroElettori) AS affluenzaPercentuale from '"$nome"'_tmp where numeroElettori > 20 order by affluenzaPercentuale DESC' ./dati/"$nome"_tmp.csv > ./dati/"$nome".csv
 
