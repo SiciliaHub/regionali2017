@@ -13,3 +13,5 @@ sed -i '1s/^/sezione|votanti|ubicazione|numeroElettori\n/' ./dati/"$Affluenza12"
 csvsql -d "|" --query 'select *, (CAST(votanti AS FLOAT)*100/numeroElettori) AS affluenzaPercentuale from '"$Affluenza12"'_tmp where numeroElettori > 20 order by affluenzaPercentuale DESC' ./dati/"$Affluenza12"_tmp.csv > ./dati/"$Affluenza12".csv
 
 csvsql --query 'select "Palermo" as comune,"12:00" as ora, AVG("affluenzaPercentuale") as mediaAffluenza from '"$Affluenza12"'' ./dati/"$Affluenza12".csv > ./dati/"$Affluenza12"_complessivo.csv
+
+rm ./dati/"$Affluenza12"_tmp.csv
