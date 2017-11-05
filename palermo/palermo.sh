@@ -5,7 +5,6 @@ mkdir -p ./dati
 Affluenza12="palermoAffluenza12"
 curl -sL "http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R1.xml" > ./dati/"$Affluenza12".xml
 
-
 xmlstarlet sel --net -t -m "//CONS/SV" -v "@NUMERO" -o "|" -v "@TOTVOT" -o "|" -v "@UBICAZIONE" -o "|" -v "@ELETTORI" -n \
 http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R1.xml > ./dati/"$Affluenza12"_tmp.csv
 
