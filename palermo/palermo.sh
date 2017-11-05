@@ -31,7 +31,7 @@ for i in {1..3}; do
 
     csvsql -d "|" --query 'select *, (CAST(votanti AS FLOAT)*100/numeroElettori) AS affluenzaPercentuale from '"$nome"'_tmp where numeroElettori > 20 order by affluenzaPercentuale DESC' ./dati/"$nome"_tmp.csv > ./dati/"$nome".csv
 
-    csvsql --query 'select "Palermo" as comune,"$ora:00" as ora, AVG("affluenzaPercentuale") as mediaAffluenza from '"$nome"'' ./dati/"$nome".csv > ./dati/"$nome"_complessivo.csv
+    csvsql --query 'select "Palermo" as comune,"'"$ora"':00" as ora, AVG("affluenzaPercentuale") as mediaAffluenza from '"$nome"'' ./dati/"$nome".csv > ./dati/"$nome"_complessivo.csv
 done
 
 rm ./dati/*_tmp.csv
