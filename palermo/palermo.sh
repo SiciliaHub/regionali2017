@@ -2,6 +2,8 @@
 
 mkdir -p ./dati
 
+## Palermo
+
 Affluenza12="palermoAffluenza12"
 curl -sL "http://regionali2017.comune.palermo.it/AFFLSEZ_1_82053_R1.xml" > ./dati/"$Affluenza12".xml
 
@@ -15,3 +17,5 @@ csvsql -d "|" --query 'select *, (CAST(votanti AS FLOAT)*100/numeroElettori) AS 
 csvsql --query 'select "Palermo" as comune,"12:00" as ora, AVG("affluenzaPercentuale") as mediaAffluenza from '"$Affluenza12"'' ./dati/"$Affluenza12".csv > ./dati/"$Affluenza12"_complessivo.csv
 
 rm ./dati/"$Affluenza12"_tmp.csv
+
+## Regione
