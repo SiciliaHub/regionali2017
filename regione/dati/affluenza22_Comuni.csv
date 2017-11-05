@@ -1,0 +1,391 @@
+comune,elettori,votanti,percentuale
+Agrigento,52894,False,False
+Alessandria della Rocca,4296,False,False
+Aragona,15128,False,False
+Bivona,3941,False,False
+Burgio,3500,False,False
+Calamonaci,1897,False,False
+Caltabellotta,3890,False,False
+Camastra,2511,False,False
+Cammarata,5395,False,False
+Campobello di Licata,10679,False,False
+Canicattì,32265,False,False
+Casteltermini,12479,False,False
+Castrofilippo,4133,False,False
+Cattolica Eraclea,7058,False,False
+Cianciana,6729,False,False
+Comitini,1811,False,False
+Favara,34778,False,False
+Grotte,9606,False,False
+Joppolo Giancaxio,1946,False,False
+Lampedusa e Linosa,5399,False,False
+Licata,42703,False,False
+Lucca Sicula,2195,False,False
+Menfi,12795,False,False
+Montallegro,3664,False,False
+Montevago,3111,False,False
+Naro,10525,False,False
+Palma di Montechiaro,26381,False,False
+Porto Empedocle,16716,False,False
+Racalmuto,10700,False,False
+Raffadali,13831,False,False
+Ravanusa,14855,False,False
+Realmonte,5205,False,False
+Ribera,20181,False,False
+Sambuca di Sicilia,5645,False,False
+San Biagio Platani,5740,False,False
+San Giovanni Gemini,7412,False,False
+Sant'Angelo Muxaro,3314,False,False
+Santa Elisabetta,4713,False,False
+Santa Margherita di Belice,6541,False,False
+Santo Stefano Quisquina,4678,False,False
+Sciacca,35783,False,False
+Siculiana,5591,False,False
+Villafranca Sicula,1382,False,False
+Acquaviva Platani,3110,False,False
+Bompensiere,1135,False,False
+Butera,5874,False,False
+Caltanissetta,56558,False,False
+Campofranco,3201,False,False
+Delia,6971,False,False
+Gela,65937,False,False
+Marianopoli,2154,False,False
+Mazzarino,11939,False,False
+Milena,3867,False,False
+Montedoro,2846,False,False
+Mussomeli,11703,False,False
+Niscemi,25199,False,False
+Resuttano,2632,False,False
+Riesi,15297,False,False
+San Cataldo,24941,False,False
+Santa Caterina Villarmosa,6889,False,False
+Serradifalco,8631,False,False
+Sommatino,11345,False,False
+Sutera,2726,False,False
+Vallelunga Pratameno,3491,False,False
+Villalba,1925,False,False
+Aci Bonaccorsi,2915,False,False
+Aci Castello,16193,False,False
+Aci Catena,24140,False,False
+Aci Sant'Antonio,14956,False,False
+Acireale,45765,False,False
+Adrano,35534,False,False
+Belpasso,22848,False,False
+Biancavilla,21537,False,False
+Bronte,19007,False,False
+Calatabiano,5362,False,False
+Caltagirone,34842,False,False
+Camporotondo Etneo,3968,False,False
+Castel di Judica,4280,False,False
+Castiglione di Sicilia,4186,False,False
+Catania,264764,False,False
+Fiumefreddo di Sicilia,9054,False,False
+Giarre,24910,False,False
+Grammichele,14235,False,False
+Gravina di Catania,21784,False,False
+Licodia Eubea,3582,False,False
+Linguaglossa,5435,False,False
+Maletto,4702,False,False
+Maniace,2969,False,False
+Mascali,12613,False,False
+Mascalucia,26121,False,False
+Mazzarrone,2972,False,False
+Militello in Val di Catania,8196,False,False
+Milo,1032,False,False
+Mineo,7408,False,False
+Mirabella Imbaccari,9153,False,False
+Misterbianco,40255,False,False
+Motta Sant'Anastasia,9749,False,False
+Nicolosi,6361,False,False
+Palagonia,15586,False,False
+Paternò,41325,False,False
+Pedara,12103,False,False
+Piedimonte Etneo,4500,False,False
+Raddusa,3834,False,False
+Ragalna,3330,False,False
+Ramacca,10294,False,False
+Randazzo,11634,False,False
+Riposto,13699,False,False
+San Cono,3536,False,False
+San Giovanni La Punta,19290,False,False
+San Gregorio di Catania,9886,False,False
+San Michele di Ganzaria,4291,False,False
+San Pietro Clarenza,6260,False,False
+Sant'Agata Li Battiati,8228,False,False
+Sant'Alfio,1647,False,False
+Santa Maria di Licodia,6613,False,False
+Santa Venerina,7332,False,False
+Scordia,16033,False,False
+Trecastagni,9044,False,False
+Tremestieri Etneo,17106,False,False
+Valverde,6489,False,False
+Viagrande,7176,False,False
+Vizzini,7955,False,False
+Zafferana Etnea,8267,False,False
+Agira,10561,False,False
+Aidone,6581,False,False
+Assoro,5564,False,False
+Barrafranca,17119,False,False
+Calascibetta,6123,False,False
+Catenanuova,5448,False,False
+Centuripe,6996,False,False
+Cerami,3023,False,False
+Enna,26872,False,False
+Gagliano Castelferrato,3702,False,False
+Leonforte,15597,False,False
+Nicosia,14171,False,False
+Nissoria,4171,False,False
+Piazza Armerina,22947,False,False
+Pietraperzia,10531,False,False
+Regalbuto,9776,False,False
+Sperlinga,901,False,False
+Troina,9788,False,False
+Valguarnera Caropepe,12819,False,False
+Villarosa,8690,False,False
+Acquedolci,4980,False,False
+Alcara Li Fusi,2443,False,False
+Alì,948,False,False
+Alì Terme,2286,False,False
+Antillo,904,False,False
+Barcellona Pozzo di Gotto,36824,False,False
+Basicò,1349,False,False
+Brolo,5077,False,False
+Capizzi,3542,False,False
+Capo d'Orlando,12957,False,False
+Caprileone,4233,False,False
+Caronia,3225,False,False
+Casalvecchio Siculo,950,False,False
+Castel Di Lucio,1953,False,False
+Castell'Umberto,2993,False,False
+Castelmola,1012,False,False
+Castroreale,2420,False,False
+Cesarò,2604,False,False
+Condrò,524,False,False
+Falcone,3298,False,False
+Ficarra,1487,False,False
+Fiumedinisi,1450,False,False
+Floresta,426,False,False
+Fondachelli Fantina,1011,False,False
+Forza d'Agrò,1004,False,False
+Francavilla Di Sicilia,4320,False,False
+Frazzanò,866,False,False
+Furci Siculo,3114,False,False
+Furnari,4241,False,False
+Gaggi,3008,False,False
+Galati Mamertino,2645,False,False
+Gallodoro,418,False,False
+Giardini Naxos,9053,False,False
+Gioiosa Marea,6741,False,False
+Graniti,1633,False,False
+Gualtieri Sicaminò,1816,False,False
+Itala,1455,False,False
+Leni,759,False,False
+Letojanni,2442,False,False
+Librizzi,1952,False,False
+Limina,1658,False,False
+Lipari,12296,False,False
+Longi,1434,False,False
+Malfa,999,False,False
+Malvagna,884,False,False
+Mandanici,722,False,False
+Mazzarrà Sant'Andrea,1507,False,False
+Merì,2058,False,False
+Messina,197470,False,False
+Milazzo,27782,False,False
+Militello Rosmarino,1197,False,False
+Mirto,1174,False,False
+Mistretta,4612,False,False
+Moio Alcantara,728,False,False
+Monforte San Giorgio,2976,False,False
+Mongiuffi Melia,573,False,False
+Montagnareale,1558,False,False
+Montalbano Elicona,2659,False,False
+Motta Camastra,1170,False,False
+Motta d'Affermo,806,False,False
+Naso,5024,False,False
+Nizza Di Sicilia,3530,False,False
+Novara Di Sicilia,1758,False,False
+Oliveri,2542,False,False
+Pace del Mela,5435,False,False
+Pagliara,1205,False,False
+Patti,11893,False,False
+Pettineo,2681,False,False
+Piraino,3775,False,False
+Raccuja,1056,False,False
+Reitano,811,False,False
+Roccafiorita,248,False,False
+Roccalumera,3786,False,False
+Roccavaldina,1198,False,False
+Roccella Valdemone,796,False,False
+Rodì Milici,2073,False,False
+Rometta,5918,False,False
+San Filippo del Mela,6307,False,False
+San Fratello,3676,False,False
+San Marco d'Alunzio,2113,False,False
+San Pier Niceto,3572,False,False
+San Piero Patti,3283,False,False
+San Salvatore di Fitalia,1583,False,False
+San Teodoro,1314,False,False
+Sant'Agata di Militello,11365,False,False
+Sant'Alessio Siculo,1419,False,False
+Sant'Angelo di Brolo,3405,False,False
+Santa Domenica Vittoria,883,False,False
+Santa Lucia del Mela,4467,False,False
+Santa Marina Salina,1044,False,False
+Santa Teresa di Riva,8453,False,False
+Santo Stefano di Camastra,4394,False,False
+Saponara,3652,False,False
+Savoca,1580,False,False
+Scaletta Zanclea,2129,False,False
+Sinagra,3025,False,False
+Spadafora,4826,False,False
+Taormina,9723,False,False
+Terme Vigliatore,6587,False,False
+Torregrotta,6735,False,False
+Torrenova,4104,False,False
+Tortorici,6018,False,False
+Tripi,1728,False,False
+Tusa,3159,False,False
+Ucria,1184,False,False
+Valdina,1175,False,False
+Venetico,3447,False,False
+Villafranca Tirrena,7641,False,False
+Alia,4200,False,False
+Alimena,2614,False,False
+Aliminusa,1117,False,False
+Altavilla Milicia,7710,False,False
+Altofonte,8492,False,False
+Bagheria,49036,False,False
+Balestrate,8005,False,False
+Baucina,2060,False,False
+Belmonte Mezzagno,9127,False,False
+Bisacquino,5585,False,False
+Blufi,1157,False,False
+Bolognetta,3653,False,False
+Bompietro,1565,False,False
+Borgetto,7602,False,False
+Caccamo,7485,False,False
+Caltavuturo,3542,False,False
+Campofelice di Fitalia,531,False,False
+Campofelice di Roccella,6813,False,False
+Campofiorito,1593,False,False
+Camporeale,3083,False,False
+Capaci,10448,False,False
+Carini,34756,False,False
+Castelbuono,8180,False,False
+Casteldaccia,9965,False,False
+Castellana Sicula,3413,False,False
+Castronovo di Sicilia,2930,False,False
+Cefalà Diana,978,False,False
+Cefalù,13829,False,False
+Cerda,4356,False,False
+Chiusa Sclafani,3072,False,False
+Ciminna,5167,False,False
+Cinisi,11742,False,False
+Collesano,4024,False,False
+Contessa Entellina,2083,False,False
+Corleone,10798,False,False
+Ficarazzi,10638,False,False
+Gangi,8447,False,False
+Geraci Siculo,1656,False,False
+Giardinello,2059,False,False
+Giuliana,1882,False,False
+Godrano,1078,False,False
+Gratteri,917,False,False
+Isnello,1579,False,False
+Isola delle Femmine,6119,False,False
+Lascari,3300,False,False
+Lercara Friddi,12102,False,False
+Marineo,5961,False,False
+Mezzojuso,2737,False,False
+Misilmeri,23963,False,False
+Monreale,32678,False,False
+Montelepre,5880,False,False
+Montemaggiore Belsito,3109,False,False
+Palazzo Adriano,2068,False,False
+Palermo,556900,False,False
+Partinico,28566,False,False
+Petralia Soprana,3019,False,False
+Petralia Sottana,2917,False,False
+Piana degli Albanesi,5738,False,False
+Polizzi Generosa,3459,False,False
+Pollina,3686,False,False
+Prizzi,4497,False,False
+Roccamena,1815,False,False
+Roccapalumba,3337,False,False
+San Cipirello,4983,False,False
+San Giuseppe Jato,8387,False,False
+San Mauro Castelverde,1975,False,False
+Santa Cristina Gela,1073,False,False
+Santa Flavia,10167,False,False
+Sciara,2705,False,False
+Scillato,622,False,False
+Sclafani Bagni,393,False,False
+Termini Imerese,23322,False,False
+Terrasini,11627,False,False
+Torretta,4467,False,False
+Trabia,9150,False,False
+Trappeto,3755,False,False
+Ustica,1218,False,False
+Valledolmo,3617,False,False
+Ventimiglia di Sicilia,2242,False,False
+Vicari,2786,False,False
+Villabate,16077,False,False
+Villafrati,2936,False,False
+Acate,7109,False,False
+Chiaramonte Gulfi,7526,False,False
+Comiso,25939,False,False
+Giarratana,3440,False,False
+Ispica,13787,False,False
+Modica,47024,False,False
+Monterosso Almo,3172,False,False
+Pozzallo,17447,False,False
+Ragusa,61957,False,False
+Santa Croce Camerina,7947,False,False
+Scicli,21962,False,False
+Vittoria,50257,False,False
+Augusta,32285,False,False
+Avola,27741,False,False
+Buccheri,2734,False,False
+Buscemi,1121,False,False
+Canicattini Bagni,7143,False,False
+Carlentini,15688,False,False
+Cassaro,904,False,False
+Ferla,2506,False,False
+Floridia,19821,False,False
+Francofonte,12619,False,False
+Lentini,21896,False,False
+Melilli,12220,False,False
+Noto,20851,False,False
+Pachino,20987,False,False
+Palazzolo Acreide,8635,False,False
+Portopalo di Capo Passero,3380,False,False
+Priolo Gargallo,10244,False,False
+Rosolini,19862,False,False
+Siracusa,103322,False,False
+Solarino,7548,False,False
+Sortino,8208,False,False
+Alcamo,40100,False,False
+Buseto Palizzolo,2871,False,False
+Calatafimi Segesta,7112,False,False
+Campobello di Mazara,11793,False,False
+Castellammare del Golfo,14802,False,False
+Castelvetrano,28173,False,False
+Custonaci,4793,False,False
+Erice,24527,False,False
+Favignana,4383,False,False
+Gibellina,4029,False,False
+Marsala,70000,False,False
+Mazara del Vallo,43522,False,False
+Paceco,9975,False,False
+Pantelleria,6504,False,False
+Partanna,10131,False,False
+Petrosino,6585,False,False
+Poggioreale,1670,False,False
+Salaparuta,1835,False,False
+Salemi,10122,False,False
+San Vito Lo Capo,5212,False,False
+Santa Ninfa,4491,False,False
+Trapani,59878,False,False
+Valderice,10605,False,False
+Vita,2017,False,False
