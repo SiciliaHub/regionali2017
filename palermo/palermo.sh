@@ -1,5 +1,12 @@
 #!/bin/bash
 
+set -x
+
+### requisiti ###
+# xmlstarlet http://xmlstar.sourceforge.net
+# csvkit https://csvkit.readthedocs.io
+### requisiti ###
+
 mkdir -p ./dati
 
 ## Palermo
@@ -17,5 +24,3 @@ csvsql -d "|" --query 'select *, (CAST(votanti AS FLOAT)*100/numeroElettori) AS 
 csvsql --query 'select "Palermo" as comune,"12:00" as ora, AVG("affluenzaPercentuale") as mediaAffluenza from '"$Affluenza12"'' ./dati/"$Affluenza12".csv > ./dati/"$Affluenza12"_complessivo.csv
 
 rm ./dati/"$Affluenza12"_tmp.csv
-
-## Regione

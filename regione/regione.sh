@@ -2,6 +2,13 @@
 
 set -x
 
+### requisiti ###
+# scrape https://github.com/jeroenjanssens/data-science-at-the-command-line/blob/master/tools/scrape
+# jq https://stedolan.github.io/jq
+# csvkit https://csvkit.readthedocs.io
+# xml2json https://github.com/Inist-CNRS/node-xml2json-command
+### requisiti ###
+
 mkdir -p ./dati
 
 curl "http://www.elezioni.regione.sicilia.it//rep_6/affluenzaRegionale1.html" | \
