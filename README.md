@@ -17,9 +17,9 @@ Nella cartella [dati](https://github.com/SiciliaHub/regionali2017/tree/master/re
 
 ## Note sui dati del sito del comune di Palermo
 
-Quelli del comune di Palermo, invece sono dati! 
+Quelli del comune di Palermo, invece **sono dati** ([qui](https://www.comune.palermo.it/js/server/uploads/opendata/MetaDatiElezioniRegionali2017.pdf) un file che li descrive)! 
 
-Sono pubblicati in formato `XML` ed è stato creato uno script che li trasforma (questo è il caso dell'affluenza) da
+Sono pubblicati in formato `XML` ed è stato creato uno [script bash](https://github.com/SiciliaHub/regionali2017/blob/master/palermo/palermo.sh) che li trasforma (questo è il caso dell'affluenza) da
 
 ```XML
 <SV NUMERO="1" NOME="SEZIONE 1" NOMEBREVE="SEZ. 1" UBICAZIONE="SCUOLA DELL'INFANZIA"MADRE TERESA DI C." VIA MAQUEDA N.53" NUM_ZONA="111" NUM_ZONA2="244" TOTVOT="126" TOTVOTM="0" TOTVOTF="0" FLZEROVOT="N" ELETTORI="1100" ELETTORIM="557" ELETTORIF="543" CONFERMATO="N" SEZIONI="" SEZSCR=""/>
