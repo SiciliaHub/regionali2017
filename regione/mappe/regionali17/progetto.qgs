@@ -7,7 +7,7 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="geojson-vettori">
       <customproperties/>
-      <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="com_sicilia_201620171106002923168" source="C:/Users/Salvatore/Desktop/regionali17/com_sicilia_2016.geojson" name="com_sicilia_2016">
+      <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="com_sicilia20171106015530479" source="C:/Users/Salvatore/Documents/GitHub/regionali2017/regione/mappe/regionali17/com_sicilia.geojson" name="com_sicilia">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="prov_sicilia20171105164411887" source="C:/Users/Salvatore/Documents/GitHub/regionali2017/regione/mappe/regionali17/prov_sicilia.geojson" name="prov_sicilia">
@@ -84,13 +84,13 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="prov_sicilia20171105164411887"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:32632" srcDatumTransform="-1" destDatumTransform="-1" layerid="comuni2016_3263220171106002804438"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="com_sicilia_201620171106002923168"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="com_sicilia20171106015530479"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>osm20171105163856217</item>
       <item>prov_sicilia20171105164411887</item>
-      <item>com_sicilia_201620171106002923168</item>
       <item>affluenza1220171106003355401</item>
       <item>affluenza12_Comuni20171106003412017</item>
       <item>affluenza1920171106003425352</item>
@@ -99,13 +99,14 @@
       <item>affluenza22_Comuni20171106003506760</item>
       <item>affluenza_prov_all20171106005432453</item>
       <item>affluenza_com_all20171106010637014</item>
+      <item>com_sicilia20171106015530479</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="geojson-vettori">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="com_sicilia_2016" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="com_sicilia_201620171106002923168" visible="0"/>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="com_sicilia" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="com_sicilia20171106015530479" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="prov_sicilia" showFeatureCount="0">
@@ -789,18 +790,12 @@
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <extent>
-        <xmin>11.92571653549115673</xmin>
-        <ymin>35.49285259246790503</ymin>
-        <xmax>15.65293548610020125</xmax>
-        <ymax>38.81212645287325813</ymax>
-      </extent>
-      <id>com_sicilia_201620171106002923168</id>
-      <datasource>../../../../../../Desktop/regionali17/com_sicilia_2016.geojson</datasource>
+      <id>com_sicilia20171106015530479</id>
+      <datasource>./com_sicilia.geojson</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>com_sicilia_2016</layername>
+      <layername>com_sicilia</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -956,7 +951,7 @@
         <mode name="equal"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
-        <labelformat format=" %1 - %2 %" trimtrailingzeroes="false" decimalplaces="1"/>
+        <labelformat format=" %1 - %2 %" trimtrailingzeroes="false" decimalplaces="0"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -1849,7 +1844,7 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
         <value>prov_sicilia20171105164411887</value>
-        <value>com_sicilia_201620171106002923168</value>
+        <value>com_sicilia20171106015530479</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>
