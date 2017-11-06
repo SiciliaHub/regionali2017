@@ -9,6 +9,8 @@ set -x
 
 mkdir -p ./dati
 
+# ho commentato la parte delle affluenze, non ci sono più aggiornamenti
+
 ## affluenze
 
 for i in {1..3}; do
@@ -36,9 +38,10 @@ done
 
 
 
+
 # Liste provinciali
 
-for i in {4..5}; do
+for i in {1..12}; do
 
     xmlstarlet sel --net -t -m "/CONS/SV/V0/V1" -v "@NUMERO" -o "|" -v "@VOTIVALIDI_C1" -o "|" -v "../@NUMERO" -o "|" -v "../../../C0/@NOME" -o "|" -v "../../@NUMERO" -o "|" -v "../../@UBICAZIONE" -n "http://regionali2017.comune.palermo.it/SEZ_3_82053_L$i.xml" > ./dati/L"$i"_tmp.csv
 
