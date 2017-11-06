@@ -53,3 +53,7 @@ for i in {1..12}; do
 done
 
 rm ./dati/*_tmp.csv
+
+git add .
+git commit -m "update automatico"
+git push
