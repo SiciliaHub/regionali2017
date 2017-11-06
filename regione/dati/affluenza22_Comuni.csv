@@ -2,7 +2,7 @@ comune,elettori,votanti,percentuale
 Agrigento,52894,25985,49.13
 Alessandria della Rocca,4296,1304,30.35
 Aragona,15128,4669,30.86
-Bivona,3941,1936,49.12
+Bivona,3941,1934,49.07
 Burgio,3500,1405,40.14
 Calamonaci,1897,623,32.84
 Caltabellotta,3890,1732,44.52
@@ -48,7 +48,7 @@ Butera,5874,1983,33.76
 Caltanissetta,56558,27826,49.2
 Campofranco,3201,1459,45.58
 Delia,6971,1759,25.23
-Gela,65937,27040,41.01
+Gela,65937,27037,41
 Marianopoli,2154,823,38.21
 Mazzarino,11939,5371,44.99
 Milena,3867,1683,43.52
@@ -68,21 +68,21 @@ Aci Bonaccorsi,2915,1869,64.12
 Aci Castello,16193,9349,57.73
 Aci Catena,24140,13851,57.38
 Aci Sant'Antonio,14956,8858,59.23
-Acireale,45765,27279,59.61
-Adrano,35534,14857,41.81
-Belpasso,22848,13285,58.15
-Biancavilla,21537,10444,48.49
+Acireale,45765,27283,59.62
+Adrano,35534,14877,41.87
+Belpasso,22848,13288,58.16
+Biancavilla,21537,10454,48.54
 Bronte,19007,8999,47.35
 Calatabiano,5362,2266,42.26
 Caltagirone,34842,16889,48.47
 Camporotondo Etneo,3968,2639,66.51
 Castel di Judica,4280,2493,58.25
 Castiglione di Sicilia,4186,1487,35.52
-Catania,264764,131054,49.5
+Catania,264764,131090,49.51
 Fiumefreddo di Sicilia,9054,4098,45.26
 Giarre,24910,12859,51.62
 Grammichele,14235,5707,40.09
-Gravina di Catania,21784,12524,57.49
+Gravina di Catania,21784,12526,57.5
 Licodia Eubea,3582,1126,31.43
 Linguaglossa,5435,2635,48.48
 Maletto,4702,1946,41.39
@@ -99,7 +99,7 @@ Motta Sant'Anastasia,9749,5818,59.68
 Nicolosi,6361,3773,59.31
 Palagonia,15586,6337,40.66
 Paternò,41325,21322,51.6
-Pedara,12103,7666,63.34
+Pedara,12103,7668,63.36
 Piedimonte Etneo,4500,2039,45.31
 Raddusa,3834,1625,42.38
 Ragalna,3330,2190,65.77
@@ -107,11 +107,11 @@ Ramacca,10294,4929,47.88
 Randazzo,11634,5362,46.09
 Riposto,13699,6560,47.89
 San Cono,3536,1193,33.74
-San Giovanni La Punta,19290,12322,63.88
+San Giovanni La Punta,19290,12323,63.88
 San Gregorio di Catania,9886,6386,64.6
 San Michele di Ganzaria,4291,1383,32.23
 San Pietro Clarenza,6260,3836,61.28
-Sant'Agata Li Battiati,8228,5214,63.37
+Sant'Agata Li Battiati,8228,5215,63.38
 Sant'Alfio,1647,779,47.3
 Santa Maria di Licodia,6613,3514,53.14
 Santa Venerina,7332,4431,60.43
@@ -190,7 +190,7 @@ Malvagna,884,356,40.27
 Mandanici,722,342,47.37
 Mazzarrà Sant'Andrea,1507,981,65.1
 Merì,2058,1265,61.47
-Messina,197470,100973,51.13
+Messina,197470,101282,51.29
 Milazzo,27782,15493,55.77
 Militello Rosmarino,1197,691,57.73
 Mirto,1174,509,43.36
@@ -281,7 +281,7 @@ Cefalù,13829,6548,47.35
 Cerda,4356,2720,62.44
 Chiusa Sclafani,3072,1400,45.57
 Ciminna,5167,2053,39.73
-Cinisi,11742,5505,46.88
+Cinisi,11742,5504,46.87
 Collesano,4024,1955,48.58
 Contessa Entellina,2083,819,39.32
 Corleone,10798,5204,48.19
@@ -299,11 +299,11 @@ Lercara Friddi,12102,2947,24.35
 Marineo,5961,3543,59.44
 Mezzojuso,2737,1483,54.18
 Misilmeri,23963,12391,51.71
-Monreale,32678,16538,50.61
+Monreale,32678,16511,50.53
 Montelepre,5880,2919,49.64
 Montemaggiore Belsito,3109,1612,51.85
 Palazzo Adriano,2068,1111,53.72
-Palermo,556900,255556,45.89
+Palermo,556900,255491,45.88
 Partinico,28566,13547,47.42
 Petralia Soprana,3019,1766,58.5
 Petralia Sottana,2917,1405,48.17
@@ -337,10 +337,10 @@ Chiaramonte Gulfi,7526,3716,49.38
 Comiso,25939,12637,48.72
 Giarratana,3440,1474,42.85
 Ispica,13787,6705,48.63
-Modica,47024,24876,52.9
+Modica,47024,24334,51.75
 Monterosso Almo,3172,1438,45.33
 Pozzallo,17447,7258,41.6
-Ragusa,61957,31327,50.56
+Ragusa,61957,31331,50.57
 Santa Croce Camerina,7947,3465,43.6
 Scicli,21962,10704,48.74
 Vittoria,50257,20446,40.68
@@ -362,7 +362,7 @@ Palazzolo Acreide,8635,3943,45.66
 Portopalo di Capo Passero,3380,1784,52.78
 Priolo Gargallo,10244,6387,62.35
 Rosolini,19862,9716,48.92
-Siracusa,103322,50603,48.98
+Siracusa,103322,50616,48.99
 Solarino,7548,3273,43.36
 Sortino,8208,4478,54.56
 Alcamo,40100,20725,51.68
