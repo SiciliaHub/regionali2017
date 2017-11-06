@@ -34,4 +34,22 @@ for i in {1..3}; do
     csvsql --query 'select "Palermo" as comune,"'"$ora"':00" as ora, AVG("affluenzaPercentuale") as mediaAffluenza from '"$nome"'' ./dati/"$nome".csv > ./dati/"$nome"_complessivo.csv
 done
 
+
+
+# Liste provinciali
+
+for i in {1..12}; do
+
+    xmlstarlet sel --net -t -m "/CONS/SV/V0/V1" -v "@NUMERO" -o "|" -v "@VOTIVALIDI_C1" -o "|" -v "../@NUMERO" -o "|" -v "../../../C0/@NOME" -o "|" -v "../../@NUMERO" -o "|" -v "../../@UBICAZIONE" -n "http://regionali2017.comune.palermo.it/SEZ_3_82053_L$i.xml" > ./dati/L"$i"_tmp.csv
+
+    sed -i '1s/^/numeroCandidato|votiCandidato|numeroLista|nomeLista|numeroSezione|nomeSezione\n/' ./dati/L"$i"_tmp.csv
+
+    #xmlstarlet sel --net -t -m "/CONS/C0/C1" -v "@NUMERO" -o "|" -v "@SIGLA" -o "|" -v "@NOME" -n "http://regionali2017.comune.palermo.it/SEZ_3_82053_L$i.xml" > ./dati/L"$i"_anagrafica.csv
+
+    #sed -i '1s/^/numeroCandidato|siglaCandidato|nomeCandidato\n/' ./dati/L"$i"_anagrafica.csv
+
+    csvsql -d "|" --query 'SELECT b."nomeCandidato", a.* FROM "L'"$i"'_tmp" as a LEFT JOIN L'"$i"'_anagrafica AS b ON a."numeroCandidato" = b."numeroCandidato"' ./dati/L"$i"_tmp.csv ./dati/L"$i"_anagrafica.csv > ./dati/L"$i".csv
+
+done
+
 rm ./dati/*_tmp.csv
