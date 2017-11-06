@@ -1,0 +1,899 @@
+<html>
+<head>
+<title>Elezioni Regionali 2017</title>
+<link rel="stylesheet" type="text/css" href="/elezioniregionali2017/styles/gier.css">
+<link rel="shortcut icon" href="/elezioniregionali2017/images/favicon.ico" >
+</head>
+<script language="javascript">
+<!--
+function redirectHtmlPage(comuni) {
+  frmComuni.action=comuni.value
+}
+
+function createPath(pagina) {
+  var path = window.location.pathname.substring( window.location.pathname.indexOf("/")+ 1)
+  path = path.substring(0,path.indexOf("/"))
+  location.href = window.location.protocol + '//' + window.location.host + "/" + path + "/" +  pagina
+}
+-->
+</script>
+<body>
+<DIV align=center>
+<TABLE cellSpacing=0 cellPadding=0 border=0 width="780"><tr>
+<td background="/elezioniregionali2017/images/header_bck.gif"><span class="Stile1"><img src="/elezioniregionali2017/images/logo.gif" alt="logo regione siciliana" width="88" height="126" border="0"></span></td>
+<td background="/elezioniregionali2017/images/header_bck.gif" align="center"><span class="title">Assessorato Regionale delle Autonomie Locali<br>e della Funzione Pubblica<br><b><i>Servizio Elettorale</i></b></span>
+<td background="/elezioniregionali2017/images/header_bck.gif"><img src="/elezioniregionali2017/images/logo_sicilia.gif" alt="logo elezioni regionali" height="126" border="0"></td>
+</tr></table>
+<table border="0" width="780" cellSpacing=0 cellPadding=0>
+<TR><td colspan="3" valign="top" width="780" height="40">
+<table width="780" border="0" cellspacing="0" cellpadding="0"><tr>
+<td background="/elezioniregionali2017/images/barra_bck.gif" height="41">
+<FONT class="Stile3Bold">
+&nbsp;<script>document.write(new Date().toLocaleDateString())</script></font>
+</td></tr></table></td></tr>
+<tr><td bgcolor="#9ABEE6" cellspacing="4" cellpadding="4">
+<td valign="top" width="142" background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1">
+<table border="0" width="140">
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('home.html')">Home page</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_9/listeRegionali.html')">Report Candidati Liste Regionali</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_1/listeProvinciali.html')">Report Candidati Liste Provinciali</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_6/affluenzaRegionale1.html')">Report Affluenza</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_3/votiListeRegionali.html')">Report Voti Liste Regionali</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_4/votiListeProvinciali.html')">Report Voti Liste Provinciali</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_13/votiComunaliListeProvincialiHome.html')">Report Analitico Voti Liste Provinciali</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1">&nbsp;</td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1">&nbsp;</td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_8/ripartoSeggi.html')">Report Riparto Seggi</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_10/riepilogoListeProvincialiElenco.html')">Report Riepilogo per Liste Provinciali</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_7/riepilogoRegionale.html')">Report Riepilogo Generale</A></td></tr>
+<!--tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_12/seggiListeRegionali.html')">Report Riepilogo Seggi per coalizione</A></td></tr-->
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_5/votiCandidati.html')">Report Voti di Preferenza</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('rep_11/storicoDatiListeProvinciali.html')">Report Storico Dati Liste Provinciali</A></td></tr>
+<tr><td background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1" class="Stile3Bold"><img src="/elezioniregionali2017/images/bullet_menu.gif" alt="bullet" width="12" height="12" border="0">
+<A class=linkMenu href="javascript:createPath('downloadPdf.html')">Download PDF</A></td></tr>
+</table>
+<td width="640" bgcolor="#FFFFFF" valign="top">
+<table border="0" width="100%" style="position: relative; top: 0; right: 0; bottom: 0">
+<TR ROWSPAN=2 bgcolor="#969696" align="center">
+<TD bgColor=#969696 >
+<B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;</FONT>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Agrigento href="../Agrigento/votiCandidatiProvinciaAG.html">
+<FONT style="FONT-SIZE: 10pt">AG</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+<B>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Caltanissetta href="../Caltanissetta/votiCandidatiProvinciaCL.html">
+<FONT style="FONT-SIZE: 10pt">CL</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+<B>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Catania href="../Catania/votiCandidatiProvinciaCT.html">
+<FONT style="FONT-SIZE: 10pt">CT</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+<B>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Enna href="../Enna/votiCandidatiProvinciaEN.html">
+<FONT style="FONT-SIZE: 10pt">EN</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+<B>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Messina href="../Messina/votiCandidatiProvinciaME.html">
+<FONT style="FONT-SIZE: 10pt">ME</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+<B>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Palermo href="../Palermo/votiCandidatiProvinciaPA.html">
+<FONT style="FONT-SIZE: 10pt">PA</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+<B>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Ragusa href="../Ragusa/votiCandidatiProvinciaRG.html">
+<FONT style="FONT-SIZE: 10pt">RG</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+<B>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Siracusa href="../Siracusa/votiCandidatiProvinciaSR.html">
+<FONT style="FONT-SIZE: 10pt">SR</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp; |&nbsp;&nbsp;</FONT>
+<B>
+<FONT style="FONT-SIZE: 10pt" face=Arial color=#ffffff size=2>
+<A class=linkMenu title=Trapani href="../Trapani/votiCandidatiProvinciaTP.html">
+<FONT style="FONT-SIZE: 10pt">TP</FONT></A></FONT></B>
+<FONT style="FONT-WEIGHT: 700; FONT-SIZE: 10pt" face=Arial color=#ffffff>&nbsp;&nbsp;</FONT>
+</TD></TR>
+<tr><td>
+<p class="title" align="center">ELEZIONI REGIONALI DEL 5 NOVEMBRE 2017<br /></p>
+<p align="center"><FONT class="title">Report Voti di Preferenza</font></p>
+<p align="center"><FONT class="title">Candidati alle Liste Provinciali</font></p>
+<p align="center"><FONT class="title">Provincia di
+Messina
+</font></p>
+<p align="center"><FONT class="normal">
+Risultati degli scrutini di n. 743 sezioni su n. 780 sezioni
+</font></p>
+<p align="center">
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 1 IDEA SICILIA - POPOLARI E AUTONOMISTI - MUSUMECI PRESIDENTE</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/18_IdeaSiciliaPopolariEAutonomisti.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">AMOROSO ANTONIETTA
+</td>
+<td bgColor=#969696 class="normalColored">REGGIO CALABRIA, 25-09-1960</td>
+<td bgColor=#969696 class="normalColored" align="center">1.164</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">BRIGUGLIO MARIO
+</td>
+<td class="normal">MESSINA 03-03-1967</td>
+<td class="normal" align="center">2.285</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">CATALANO SANTO
+<br>Detta/o SANTINO
+</td>
+<td bgColor=#969696 class="normalColored">FAVIGNANA &#40;TP&#41;, 08-05-1956</td>
+<td bgColor=#969696 class="normalColored" align="center">1.586</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">CAUSARANO PATRIZIA
+</td>
+<td class="normal">SCICLI &#40;RG&#41; 16-04-1963</td>
+<td class="normal" align="center">98</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">CORONA ROBERTO
+</td>
+<td bgColor=#969696 class="normalColored">SAN MARCO D&#039;ALUNZIO &#40;ME&#41;, 07-11-1946</td>
+<td bgColor=#969696 class="normalColored" align="center">2.158</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">CURRENTI CARMELO
+<br>Detta/o PIPPO CORRENTI
+</td>
+<td class="normal">GALLODORO &#40;ME&#41; 07-04-1960</td>
+<td class="normal" align="center">3.718</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">FOTI SILVANA
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 26-05-1950</td>
+<td bgColor=#969696 class="normalColored" align="center">110</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">PETTINATO MARCO ANTONIO
+</td>
+<td class="normal">MESSINA 11-12-1983</td>
+<td class="normal" align="center">3.659</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+14778
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 2 PDR - SICILIA FUTURA - PSI - MICARI PRESIDENTE</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/11_UguaglianzaPerLaSicilia.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">CALDERONE SANTI
+</td>
+<td bgColor=#969696 class="normalColored">BARCELLONA POZZO DI GOTTO &#40;ME&#41;, 30-10-1973</td>
+<td bgColor=#969696 class="normalColored" align="center">2.790</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">CILONA RENATO
+</td>
+<td class="normal">LIBRIZZI &#40;ME&#41; 14-06-1970</td>
+<td class="normal" align="center">200</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">GRECO MARCELLO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 16-01-1958</td>
+<td bgColor=#969696 class="normalColored" align="center">2.371</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">INSANA MARIA GRAZIA
+</td>
+<td class="normal">PALERMO 10-11-1973</td>
+<td class="normal" align="center">387</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">MISITI ANNITA
+<br>Detta/o ANNA
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 24-04-1974</td>
+<td bgColor=#969696 class="normalColored" align="center">362</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">PICCIOLO GIUSEPPE
+<br>Detta/o BEPPE
+</td>
+<td class="normal">MESSINA 24-07-1965</td>
+<td class="normal" align="center">9.964</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">TORRE BARBERA CARMELO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 06-06-1976</td>
+<td bgColor=#969696 class="normalColored" align="center">904</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+16978
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 3 MOVIMENTO 5 STELLE</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/05_Movimento5Stelle.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">ZAFARANA VALENTINA
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 14-11-1980</td>
+<td bgColor=#969696 class="normalColored" align="center">7.784</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">RUSSO LEONARDO
+</td>
+<td class="normal">MESSINA 23-01-1961</td>
+<td class="normal" align="center">3.560</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">MAZZEO FRANCESCO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 02-12-1988</td>
+<td bgColor=#969696 class="normalColored" align="center">2.804</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">FANARA CARLO
+</td>
+<td class="normal">MESSINA 10-02-1957</td>
+<td class="normal" align="center">1.389</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">DE LUCA ANTONINO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 23-12-1979</td>
+<td bgColor=#969696 class="normalColored" align="center">6.838</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">LASPADA ALBERTO
+</td>
+<td class="normal">MESSINA 18-05-1983</td>
+<td class="normal" align="center">2.841</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">PAPIRO ANTONELLA
+</td>
+<td bgColor=#969696 class="normalColored">SANT&#039;AGATA DI MILITELLO &#40;ME&#41;, 15-09-1978</td>
+<td bgColor=#969696 class="normalColored" align="center">2.549</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">RAFFA ANGELA
+</td>
+<td class="normal">MESSINA 26-01-1993</td>
+<td class="normal" align="center">1.484</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+29249
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 4 PD - PARTITO DEMOCRATICO - MICARI PRESIDENTE</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/03_PartitoDemocraticoMicariPresidente.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">LACCOTO GIUSEPPE
+<br>Detta/o PIPPO
+</td>
+<td bgColor=#969696 class="normalColored">BROLO &#40;ME&#41;, 28-04-1949</td>
+<td bgColor=#969696 class="normalColored" align="center">7.262</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">GOGLIANDOLO LETTERIA
+</td>
+<td class="normal">MESSINA 14-09-1991</td>
+<td class="normal" align="center">39</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">DE DOMENICO FRANCESCO
+<br>Detta/o FRANCO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 22-08-1962</td>
+<td bgColor=#969696 class="normalColored" align="center">10.987</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">DE PASQUALE MARIELLA GRAZIA
+</td>
+<td class="normal">MILAZZO &#40;ME&#41; 03-08-1975</td>
+<td class="normal" align="center">71</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">GIGLIA EMANUELE
+</td>
+<td bgColor=#969696 class="normalColored">PATTI &#40;ME&#41;, 30-03-1978</td>
+<td bgColor=#969696 class="normalColored" align="center">2.722</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">SCIOTTO MATTEO
+</td>
+<td class="normal">MILAZZO &#40;ME&#41; 07-05-1968</td>
+<td class="normal" align="center">4.049</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">IAPICHINO GIULIA
+</td>
+<td bgColor=#969696 class="normalColored">VITTORIA &#40;RG&#41;, 30-08-1992</td>
+<td bgColor=#969696 class="normalColored" align="center">32</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">CURRO&#039; ALESSIA
+</td>
+<td class="normal">MESSINA 02-04-1986</td>
+<td class="normal" align="center">333</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+25495
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 5 ALTERNATIVA POPOLARE - CENTRISTI X MICARI</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/25_AlternativaPopolareCentristiXMicari.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">ARDIZZONE GIOVANNI
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 15-01-1965</td>
+<td bgColor=#969696 class="normalColored" align="center">4.792</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">FASOLO CETTINA
+</td>
+<td class="normal">MESSINA 11-05-1976</td>
+<td class="normal" align="center">342</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">FRACASSI MARIA
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 28-01-1963</td>
+<td bgColor=#969696 class="normalColored" align="center">296</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">FRANCHINA MASSIMO
+</td>
+<td class="normal">CATANIA 05-07-1973</td>
+<td class="normal" align="center">672</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">FRANCILIA MATTEO GIUSEPPE
+</td>
+<td bgColor=#969696 class="normalColored">VANCOUVER &#40;CANADA&#41;, 09-12-1979</td>
+<td bgColor=#969696 class="normalColored" align="center">3.503</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">MAMMOLA SALVATORE
+</td>
+<td class="normal">MESSINA 22-05-1963</td>
+<td class="normal" align="center">173</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">MORACI FRANCESCA
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 08-06-1955</td>
+<td bgColor=#969696 class="normalColored" align="center">780</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">SCIUTO LETTERIA
+<br>Detta/o GIOVANNA
+</td>
+<td class="normal">MESSINA 27-08-1962</td>
+<td class="normal" align="center">881</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+11439
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 6 MUSUMECI PRESIDENTE - SICILIA VERA - LIBERTAS - RETE DEMOCRATICA - UNIONE DI CENTRO</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/08_MusumeciPresidente.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">DE LUCA CATENO
+<br>Detta/o MESSINA
+</td>
+<td bgColor=#969696 class="normalColored">FIUMEDINISI &#40;ME&#41;, 18-03-1972</td>
+<td bgColor=#969696 class="normalColored" align="center">5.399</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">SIDOTI ROSARIO
+<br>Detta/o SARO
+</td>
+<td class="normal">MONTAGNAREALE &#40;ME&#41; 28-01-1970</td>
+<td class="normal" align="center">3.714</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">CALA&#039; ANTONINO
+<br>Detta/o NINO
+</td>
+<td bgColor=#969696 class="normalColored">TORTORICI &#40;ME&#41;, 19-03-1963</td>
+<td bgColor=#969696 class="normalColored" align="center">1.265</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">CORRAO HELGA
+</td>
+<td class="normal">MESSINA 22-10-1973</td>
+<td class="normal" align="center">470</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">LO GIUDICE DANILO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 13-11-1986</td>
+<td bgColor=#969696 class="normalColored" align="center">4.285</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">PANNARELLO CATERINA
+</td>
+<td class="normal">MESSINA 31-07-1963</td>
+<td class="normal" align="center">112</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">PREVITI GIUSEPPE
+<br>Detta/o PIPPO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 22-09-1958</td>
+<td bgColor=#969696 class="normalColored" align="center">837</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">ZIRILLI DANIELA
+</td>
+<td class="normal">MESSINA 18-01-1977</td>
+<td class="normal" align="center">396</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+16478
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 7 MUSUMECI - FORZA ITALIA - BERLUSCONI</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/21_MusumeciForzaItaliaBerlusconi.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">FORMICA SANTI
+</td>
+<td bgColor=#969696 class="normalColored">SAN PIER NICETO &#40;ME&#41;, 27-11-1952</td>
+<td bgColor=#969696 class="normalColored" align="center">5.700</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">BARRESI CRISTINA
+</td>
+<td class="normal">MESSINA 30-07-1951</td>
+<td class="normal" align="center">80</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">CALDERONE TOMMASO ANTONINO
+</td>
+<td bgColor=#969696 class="normalColored">BARCELLONA POZZO DI GOTTO &#40;ME&#41;, 30-01-1963</td>
+<td bgColor=#969696 class="normalColored" align="center">12.511</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">GENOVESE LUIGI
+</td>
+<td class="normal">MESSINA 02-02-1996</td>
+<td class="normal" align="center">16.617</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">GERMANA&#039; ANTONINO SALVATORE
+<br>Detta/o NINO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 12-04-1976</td>
+<td bgColor=#969696 class="normalColored" align="center">10.851</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">GRASSO BERNARDETTE FELICE
+</td>
+<td class="normal">CAPRI LEONE &#40;ME&#41; 09-08-1959</td>
+<td class="normal" align="center">6.086</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">MENTO ELVIRA
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 12-04-1994</td>
+<td bgColor=#969696 class="normalColored" align="center">136</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">RAINERI MANGIALINO FEDERICO
+</td>
+<td class="normal">PATTI &#40;ME&#41; 10-05-1991</td>
+<td class="normal" align="center">1.472</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+53453
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 8 CENTO PASSI PER LA SICILIA - CLAUDIO FAVA PRESIDENTE</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/07_ClaudioFava.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">FAVA GIOVANNI GIUSEPPE CLAUDIO
+<br>Detta/o CLAUDIO FAVA
+</td>
+<td bgColor=#969696 class="normalColored">CATANIA, 15-04-1957</td>
+<td bgColor=#969696 class="normalColored" align="center">1.627</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">BERTUCELLI CONCETTA
+<br>Detta/o KETTY &#45; KETTI
+</td>
+<td class="normal">MESSINA 29-07-1983</td>
+<td class="normal" align="center">1.076</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">CAMPO RAFFAELLA
+</td>
+<td bgColor=#969696 class="normalColored">BARCELLONA POZZO DI GOTTO &#40;ME&#41;, 22-02-1976</td>
+<td bgColor=#969696 class="normalColored" align="center">2.453</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">CORRAO IGNAZIO MARCELLO
+</td>
+<td class="normal">NASO &#40;ME&#41; 27-05-1954</td>
+<td class="normal" align="center">702</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">GRIOLI GIUSEPPE
+<br>Detta/o PEPPE &#45; BEPPE
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 16-11-1979</td>
+<td bgColor=#969696 class="normalColored" align="center">3.734</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">GULLOTTA FRANCESCA
+</td>
+<td class="normal">TAORMINA &#40;ME&#41; 28-05-1963</td>
+<td class="normal" align="center">798</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">ITALIANO FRANCESCO
+<br>Detta/o CICCIO
+</td>
+<td bgColor=#969696 class="normalColored">MILAZZO &#40;ME&#41;, 11-11-1953</td>
+<td bgColor=#969696 class="normalColored" align="center">299</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">RELLA MAURIZIO
+</td>
+<td class="normal">MESSINA 21-08-1959</td>
+<td class="normal" align="center">712</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+11401
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 9 SICILIANI LIBERI</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/13_SicilianiLiberi.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">LA ROSA ROBERTO
+</td>
+<td bgColor=#969696 class="normalColored">PALERMO, 21-01-1956</td>
+<td bgColor=#969696 class="normalColored" align="center">182</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">CASTRICIANO GIANLUCA
+</td>
+<td class="normal">MESSINA 25-02-1978</td>
+<td class="normal" align="center">620</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">BRACCINI DEBORAH
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 22-09-1984</td>
+<td bgColor=#969696 class="normalColored" align="center">124</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">GIANDOLFO PIETRO
+</td>
+<td class="normal">FIUMEDINISI &#40;ME&#41; 01-01-1935</td>
+<td class="normal" align="center">51</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">LO DICO MARCO
+</td>
+<td bgColor=#969696 class="normalColored">PALERMO, 09-07-1973</td>
+<td bgColor=#969696 class="normalColored" align="center">9</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">SINDONI ANTONINO
+</td>
+<td class="normal">MESSINA 04-12-1968</td>
+<td class="normal" align="center">22</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">SPINELLA FRANCESCA RITA
+</td>
+<td bgColor=#969696 class="normalColored">FRANCAVILLA DI SICILIA &#40;ME&#41;, 27-03-1958</td>
+<td bgColor=#969696 class="normalColored" align="center">24</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">VERSACI FRANCESCA
+</td>
+<td class="normal">PALERMO 08-09-1976</td>
+<td class="normal" align="center">154</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+1186
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 10 NELLO MUSUMECI - #DIVENTERA' BELLISSIMA - PER LA SICILIA</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/23_DiventeraBellissimaPerLaSicilia.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">CROCE FERDINANDO
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 14-09-1982</td>
+<td bgColor=#969696 class="normalColored" align="center">3.227</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">D&#039;AVENI ANTONIO
+</td>
+<td class="normal">CATANIA 29-11-1974</td>
+<td class="normal" align="center">1.776</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">GALLUZZO GIUSEPPE
+<br>Detta/o PINO
+</td>
+<td bgColor=#969696 class="normalColored">BARCELLONA POZZO DI GOTTO &#40;ME&#41;, 01-01-1972</td>
+<td bgColor=#969696 class="normalColored" align="center">5.024</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">MAGISTRI SIMONE
+</td>
+<td class="normal">MILAZZO &#40;ME&#41; 08-01-1984</td>
+<td class="normal" align="center">637</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">PARATORE DAVIDE
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 06-10-1971</td>
+<td bgColor=#969696 class="normalColored" align="center">4.217</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">RECUPERO MARIA ROSA
+</td>
+<td class="normal">MONTALBANO ELICONA &#40;ME&#41; 22-08-1970</td>
+<td class="normal" align="center">390</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">REGALBUTO GABRIELLA
+</td>
+<td bgColor=#969696 class="normalColored">MISTRETTA &#40;ME&#41;, 27-06-1984</td>
+<td bgColor=#969696 class="normalColored" align="center">502</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">STERRANTINO CHIARA
+</td>
+<td class="normal">MESSINA 12-02-1980</td>
+<td class="normal" align="center">2.798</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+18571
+</p></td></tr></table><p><p><p><p>
+<table border="3" width="600" align="center">
+<th height="74" colspan="4" align="top">
+<div align="center">
+<table width="100%" border="0">
+<tr><td valign="top" class="headertabella">
+<div align="left">LISTA N. 11 ALLEANZA PER LA SICILIA - NELLO MUSUMECI PRESIDENTE - FRATELLI D'ITALIA ALLEANZA NAZIONALE - NOI CON SALVINI</div></td>
+<td><div align="right"><img border="0" src="/elezioniregionali2017/images/contrassegni/provinciali/31_FratelliDItaliaANAlleanzaPerLaSicilia.jpg"></div></td>
+</tr></table></div></th><tr>
+<td bgColor=#969696 class="normal"><b>Ordine</td>
+<td bgColor=#969696 class="normal"><b>Cognome Nome</td>
+<td bgColor=#969696 class="normal"><b>Luogo, Data di Nascita</td>
+<td bgColor=#969696 class="normal"><b>Preferenze</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">1</td>
+<td bgColor=#969696 class="normalColored">AMATA ELVIRA
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 02-10-1969</td>
+<td bgColor=#969696 class="normalColored" align="center">2.663</td></tr>
+<tr><td class="normal" align="center">2</td>
+<td class="normal">CATALFAMO ANTONIO
+</td>
+<td class="normal">MILAZZO &#40;ME&#41; 01-09-1980</td>
+<td class="normal" align="center">3.874</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">3</td>
+<td bgColor=#969696 class="normalColored">CORVAJA GIUSEPPE
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 03-11-1956</td>
+<td bgColor=#969696 class="normalColored" align="center">2.723</td></tr>
+<tr><td class="normal" align="center">4</td>
+<td class="normal">DI NATALE ELISABETTA
+</td>
+<td class="normal">FRANCAVILLA DI SICILIA &#40;ME&#41; 27-05-1975</td>
+<td class="normal" align="center">499</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">5</td>
+<td bgColor=#969696 class="normalColored">ORTOLEVA ANTONIO GIUSEPPE
+</td>
+<td bgColor=#969696 class="normalColored">PALERMO, 27-06-1973</td>
+<td bgColor=#969696 class="normalColored" align="center">3.070</td></tr>
+<tr><td class="normal" align="center">6</td>
+<td class="normal">PINO CARMELO
+</td>
+<td class="normal">MILAZZO &#40;ME&#41; 02-11-1961</td>
+<td class="normal" align="center">755</td></tr>
+<tr><td bgColor=#969696 class="normalColored" align="center">7</td>
+<td bgColor=#969696 class="normalColored">SCARAVAGGI SABINA
+</td>
+<td bgColor=#969696 class="normalColored">MESSINA, 20-06-1972</td>
+<td bgColor=#969696 class="normalColored" align="center">101</td></tr>
+<tr><td class="normal" align="center">8</td>
+<td class="normal">STANCANELLI LUIGI
+</td>
+<td class="normal">PALERMO 28-10-1962</td>
+<td class="normal" align="center">344</td></tr>
+<tr align="center"><td class="normalBold" colspan="3">
+<p align="right">TOTALE</p></td>
+<td class="normalBold"><p align="center">
+14029
+</p></td></tr></table><p><p><p><p>
+<p align="center"><form name="frmComuni" method="get" action="">
+<table border="0"><tr><td align="left">
+<font class="normalBold">Selezionare il Comune di riferimento</font></td><td>
+<select onChange="redirectHtmlPage(comuni)" name="comuni">
+<option value="#"></option>
+<option value="votiCandidatiComune8.html">Acquedolci</option>
+<option value="votiCandidatiComune14.html">Alcara Li Fusi</option>
+<option value="votiCandidatiComune16.html">Al&#236;</option>
+<option value="votiCandidatiComune17.html">Al&#236; Terme</option>
+<option value="votiCandidatiComune23.html">Antillo</option>
+<option value="votiCandidatiComune30.html">Barcellona Pozzo di Gotto</option>
+<option value="votiCandidatiComune32.html">Basic&#242;</option>
+<option value="votiCandidatiComune44.html">Brolo</option>
+<option value="votiCandidatiComune73.html">Capizzi</option>
+<option value="votiCandidatiComune74.html">Capo d&#039;Orlando</option>
+<option value="votiCandidatiComune75.html">Caprileone</option>
+<option value="votiCandidatiComune78.html">Caronia</option>
+<option value="votiCandidatiComune79.html">Casalvecchio Siculo</option>
+<option value="votiCandidatiComune82.html">Castel Di Lucio</option>
+<option value="votiCandidatiComune87.html">Castell&#039;Umberto</option>
+<option value="votiCandidatiComune88.html">Castelmola</option>
+<option value="votiCandidatiComune94.html">Castroreale</option>
+<option value="votiCandidatiComune103.html">Cesar&#242;</option>
+<option value="votiCandidatiComune112.html">Condr&#242;</option>
+<option value="votiCandidatiComune119.html">Falcone</option>
+<option value="votiCandidatiComune124.html">Ficarra</option>
+<option value="votiCandidatiComune125.html">Fiumedinisi</option>
+<option value="votiCandidatiComune127.html">Floresta</option>
+<option value="votiCandidatiComune129.html">Fondachelli Fantina</option>
+<option value="votiCandidatiComune130.html">Forza d&#039;Agr&#242; </option>
+<option value="votiCandidatiComune131.html">Francavilla Di Sicilia</option>
+<option value="votiCandidatiComune133.html">Frazzan&#242;</option>
+<option value="votiCandidatiComune134.html">Furci Siculo</option>
+<option value="votiCandidatiComune135.html">Furnari</option>
+<option value="votiCandidatiComune136.html">Gaggi</option>
+<option value="votiCandidatiComune138.html">Galati Mamertino</option>
+<option value="votiCandidatiComune139.html">Gallodoro</option>
+<option value="votiCandidatiComune144.html">Giardini Naxos</option>
+<option value="votiCandidatiComune148.html">Gioiosa Marea</option>
+<option value="votiCandidatiComune152.html">Graniti</option>
+<option value="votiCandidatiComune156.html">Gualtieri Sicamin&#242;</option>
+<option value="votiCandidatiComune160.html">Itala</option>
+<option value="votiCandidatiComune164.html">Leni</option>
+<option value="votiCandidatiComune168.html">Letojanni</option>
+<option value="votiCandidatiComune169.html">Librizzi</option>
+<option value="votiCandidatiComune172.html">Limina</option>
+<option value="votiCandidatiComune174.html">Lipari</option>
+<option value="votiCandidatiComune175.html">Longi</option>
+<option value="votiCandidatiComune178.html">Malfa</option>
+<option value="votiCandidatiComune179.html">Malvagna</option>
+<option value="votiCandidatiComune180.html">Mandanici</option>
+<option value="votiCandidatiComune189.html">Mazzarr&#224; Sant&#039;Andrea</option>
+<option value="votiCandidatiComune193.html">Mer&#236;</option>
+<option value="votiCandidatiComune194.html">Messina</option>
+<option value="votiCandidatiComune196.html">Milazzo</option>
+<option value="votiCandidatiComune198.html">Militello Rosmarino</option>
+<option value="votiCandidatiComune203.html">Mirto</option>
+<option value="votiCandidatiComune206.html">Mistretta</option>
+<option value="votiCandidatiComune208.html">Moio Alcantara</option>
+<option value="votiCandidatiComune209.html">Monforte San Giorgio</option>
+<option value="votiCandidatiComune210.html">Mongiuffi Melia</option>
+<option value="votiCandidatiComune212.html">Montagnareale</option>
+<option value="votiCandidatiComune213.html">Montalbano Elicona</option>
+<option value="votiCandidatiComune220.html">Motta Camastra</option>
+<option value="votiCandidatiComune221.html">Motta d&#039;Affermo</option>
+<option value="votiCandidatiComune225.html">Naso</option>
+<option value="votiCandidatiComune230.html">Nizza Di Sicilia</option>
+<option value="votiCandidatiComune232.html">Novara Di Sicilia</option>
+<option value="votiCandidatiComune233.html">Oliveri</option>
+<option value="votiCandidatiComune234.html">Pace del Mela</option>
+<option value="votiCandidatiComune237.html">Pagliara</option>
+<option value="votiCandidatiComune247.html">Patti</option>
+<option value="votiCandidatiComune252.html">Pettineo</option>
+<option value="votiCandidatiComune257.html">Piraino</option>
+<option value="votiCandidatiComune267.html">Raccuja</option>
+<option value="votiCandidatiComune277.html">Reitano</option>
+<option value="votiCandidatiComune282.html">Roccafiorita</option>
+<option value="votiCandidatiComune283.html">Roccalumera</option>
+<option value="votiCandidatiComune286.html">Roccavaldina</option>
+<option value="votiCandidatiComune287.html">Roccella Valdemone</option>
+<option value="votiCandidatiComune288.html">Rod&#236; Milici</option>
+<option value="votiCandidatiComune289.html">Rometta</option>
+<option value="votiCandidatiComune298.html">San Filippo del Mela</option>
+<option value="votiCandidatiComune299.html">San Fratello</option>
+<option value="votiCandidatiComune304.html">San Marco d&#039;Alunzio</option>
+<option value="votiCandidatiComune307.html">San Pier Niceto</option>
+<option value="votiCandidatiComune308.html">San Piero Patti</option>
+<option value="votiCandidatiComune310.html">San Salvatore di Fitalia</option>
+<option value="votiCandidatiComune311.html">San Teodoro</option>
+<option value="votiCandidatiComune325.html">Sant&#039;Agata di Militello</option>
+<option value="votiCandidatiComune327.html">Sant&#039;Alessio Siculo</option>
+<option value="votiCandidatiComune329.html">Sant&#039;Angelo di Brolo</option>
+<option value="votiCandidatiComune316.html">Santa Domenica Vittoria</option>
+<option value="votiCandidatiComune318.html">Santa Lucia del Mela</option>
+<option value="votiCandidatiComune321.html">Santa Marina Salina</option>
+<option value="votiCandidatiComune323.html">Santa Teresa di Riva</option>
+<option value="votiCandidatiComune332.html">Santo Stefano di Camastra</option>
+<option value="votiCandidatiComune334.html">Saponara</option>
+<option value="votiCandidatiComune335.html">Savoca</option>
+<option value="votiCandidatiComune336.html">Scaletta Zanclea</option>
+<option value="votiCandidatiComune345.html">Sinagra</option>
+<option value="votiCandidatiComune350.html">Spadafora</option>
+<option value="votiCandidatiComune353.html">Taormina</option>
+<option value="votiCandidatiComune354.html">Terme Vigliatore</option>
+<option value="votiCandidatiComune357.html">Torregrotta</option>
+<option value="votiCandidatiComune358.html">Torrenova</option>
+<option value="votiCandidatiComune360.html">Tortorici</option>
+<option value="votiCandidatiComune366.html">Tripi</option>
+<option value="votiCandidatiComune368.html">Tusa</option>
+<option value="votiCandidatiComune369.html">Ucria</option>
+<option value="votiCandidatiComune372.html">Valdina</option>
+<option value="votiCandidatiComune377.html">Venetico</option>
+<option value="votiCandidatiComune383.html">Villafranca Tirrena</option>
+</select></td><tr><TD align="center" valign="middle">
+<input name="submit" type="submit" class="formbutton" value="Invio">
+</td><TD align="center" valign="middle">
+<input name="reset" type="reset" class="formbutton" value="Cancella">
+</td></tr></table></form></p><p>&nbsp;</p></font></td></tr></table></td>
+<tr>
+
+<td colspan=2 background="/elezioniregionali2017/images/menu_bck.gif" bgcolor="#80B9E1"></td>
+<td align="center"><FONT class="normalBold">Trattasi di dati provvisori comunicati dai Comuni attraverso <br>le Prefetture - Uffici Territoriali del Governo</font></td>
+</tr>
+
+<tr>
+  <td></td>
+    <td background="/elezioniregionali2017/images/footer_4.gif" class="Stile3Bold" valign="bottom"><img src="/elezioniregionali2017/images/footer_1.jpg" height="51" border="0"></td>
+	<td background="/elezioniregionali2017/images/footer_4.gif" valign="bottom" align=left>
+		<table width="100%" cellpadding=0 border=0 cellspacing=0><tr><td align="left"><img src="/elezioniregionali2017/images/footer_2.gif" alt="sicilia innovazione" height="51"></td><td align="right"><img src="/elezioniregionali2017/images/footer_3.gif" alt="logo" height="51" border="0"></td></tr></table>
+    </td>
+  </tr></table></body></html>
