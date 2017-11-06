@@ -6,6 +6,10 @@ mkdir -p ./dati
 
 curl "http://www.elezioni.regione.sicilia.it//rep_5/Palermo/votiCandidatiProvinciaPA.html" > ./dati/votiCandidatiProvinciaPa.html
 
+cat ./dati/votiCandidatiProvinciaPa.html | scrape -be "//th/div/table//tr[td]/td/div" | xml2json | jq '.html.body.div[]."$t"' | sed -r 's/null//g;/^$/d'  | nl -nrn  -s "," | sed -r 's/^ *//g' > ./dati/listeProvinciaPa.csv
+
+sed -i '1s/^/idLista,nomeLista\n/' ./dati/listeProvinciaPa.csv
+
 paragrafo=6
 for i in {1..12}
 do
@@ -17,7 +21,9 @@ rm ./dati/listeProvncialiPalermo.csv
 
 csvstack ./dati/L_R*.csv > ./dati/listeProvncialiPalermo_tmp.csv
 
-csvsql --query "select * from listeProvncialiPalermo_tmp order by preferenze  DESC" ./dati/listeProvncialiPalermo_tmp.csv > ./dati/listeProvncialiPalermo.csv
+csvsql --query "select * from listeProvncialiPalermo_tmp order by preferenze  DESC" ./dati/listeProvncialiPalermo_tmp.csv > ./dati/listeProvncialiPalermo2_tmp.csv
+
+csvsql --query 'select b."nomeLista",a.* from "listeProvncialiPalermo2_tmp" as a left JOIN  "listeProvinciaPa" as b ON a.lista=b."idLista"' ./dati/listeProvncialiPalermo2_tmp.csv ./dati/listeProvinciaPa.csv > ./dati/listeProvncialiPalermo.csv
 
 rm ./dati/L_R*.csv
 rm ./dati/*_tmp.csv
