@@ -58,3 +58,5 @@ done <./dati/provinceURL_22.txt
 csvstack ./dati/affluenza22Com*.csv > ./dati/affluenza22_Comuni.csv
 
 rm ./dati/provinceURL_*.txt
+
+# curl "http://www.elezioni.regione.sicilia.it//rep_3/votiListeRegionali.html" | pup 'body > div > table > tbody > tr > td > table > tbody > tr > td > p > table json{}'  | jq "[.[0].children[0].children[] | {numero:.children[0].text,nome:.children[1].text,contrassegno:.children[2].children[0].children[0].children[0].children[1].text,voti:.children[3].text,perc:.children[4].text}]"
