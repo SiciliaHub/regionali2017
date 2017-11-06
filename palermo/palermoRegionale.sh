@@ -23,7 +23,7 @@ csvstack ./dati/L_R*.csv > ./dati/listeProvncialiPalermo_tmp.csv
 
 csvsql --query "select * from listeProvncialiPalermo_tmp order by preferenze  DESC" ./dati/listeProvncialiPalermo_tmp.csv > ./dati/listeProvncialiPalermo2_tmp.csv
 
-csvsql --query 'select b."nomeLista",a.* from "listeProvncialiPalermo2_tmp" as a left JOIN  "listeProvinciaPa" as b ON a.lista=b."idLista"' ./dati/listeProvncialiPalermo2_tmp.csv ./dati/listeProvinciaPa.csv > ./dati/listeProvncialiPalermo.csv
+csvsql --query 'select a.*,b."nomeLista" from "listeProvncialiPalermo2_tmp" as a left JOIN  "listeProvinciaPa" as b ON a.lista=b."idLista"' ./dati/listeProvncialiPalermo2_tmp.csv ./dati/listeProvinciaPa.csv > ./dati/listeProvncialiPalermo.csv
 
 rm ./dati/L_R*.csv
 rm ./dati/*_tmp.csv
